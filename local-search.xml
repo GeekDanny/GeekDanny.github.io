@@ -4,13 +4,63 @@
   
   
   <entry>
-    <title>Hello World</title>
+    <title>install-k8s</title>
+    <link href="undefined2019/12/07/install-k8s/"/>
+    <url>2019/12/07/install-k8s/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Install-K8S-on-Centos-7-5"><a href="#Install-K8S-on-Centos-7-5" class="headerlink" title="Install K8S on Centos 7.5"></a>Install K8S on Centos 7.5</h1>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>k8s</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>k8s</title>
+    <link href="undefined2019/12/07/k8s/"/>
+    <url>2019/12/07/k8s/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Basic-Concept"><a href="#Basic-Concept" class="headerlink" title="Basic Concept"></a>Basic Concept</h1><p><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/5UmgFx.png" srcset="/img/loading.gif" alt=""></p><h2 id="Master"><a href="#Master" class="headerlink" title="Master"></a>Master</h2><p>A physical machine. It is using to monitor and dispatch to each node to work. The master is the controller.</p><h2 id="Node"><a href="#Node" class="headerlink" title="Node"></a>Node</h2><p>A node can be a virtual or physical machine. A node is a worker</p><h2 id="Pod"><a href="#Pod" class="headerlink" title="Pod"></a>Pod</h2><ul><li>A pod is the smallest unit in K8S. A pod is a container of containers.</li><li>A pod contains can container many containers.</li><li>A pod is a process.</li><li>Each pod has its own IP address.</li><li>Each pod can communicate, but the communication has to go via kube-proxy.</li><li>Pause is a root container in the pod.</li><li>Pod should contain a complete module per container.</li><li>You can use the analogy that each pod is a virtual machine.</li><li>All the communication should go through the pause between it goes out the pod<br><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/wyVam5.png" srcset="/img/loading.gif" alt=""><h2 id="Label"><a href="#Label" class="headerlink" title="Label"></a>Label</h2>Label is a description tag of a pod.<h2 id="Replication-Controller"><a href="#Replication-Controller" class="headerlink" title="Replication Controller"></a>Replication Controller</h2>It is used to replicate, delete, add new pods. It monitors the system has enough pods between nodes.<h2 id="Service"><a href="#Service" class="headerlink" title="Service"></a>Service</h2>Service is a logic group. Usually, the same services are put into the same pod. E.g Backend services are grouped into one pod and frontend services are grouped in another pod.<br><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/4iMG69.png" srcset="/img/loading.gif" alt=""></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>DevOps</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>k8s</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello Hexo</title>
     <link href="undefined2019/12/07/hello-world/"/>
     <url>2019/12/07/hello-world/</url>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>k8s</tag>
+      
+    </tags>
     
   </entry>
   
