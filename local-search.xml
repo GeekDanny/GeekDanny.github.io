@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>k8s</title>
+    <link href="undefined2019/12/07/k8s/"/>
+    <url>2019/12/07/k8s/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Basic-Concept"><a href="#Basic-Concept" class="headerlink" title="Basic Concept"></a>Basic Concept</h1><p><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/5UmgFx.png" srcset="/img/loading.gif" alt=""></p><h2 id="Master"><a href="#Master" class="headerlink" title="Master"></a>Master</h2><p>A physical machine. It is using to monitor and dispatch to each node to work. The master is the controller.</p><h2 id="Node"><a href="#Node" class="headerlink" title="Node"></a>Node</h2><p>A node can be a virtual or physical machine. A node is a worker</p><h2 id="Pod"><a href="#Pod" class="headerlink" title="Pod"></a>Pod</h2><ul><li>A pod is the smallest unit in K8S. A pod is a container of containers.</li><li>A pod contains can container many containers.</li><li>A pod is a process.</li><li>Each pod has its own IP address.</li><li>Each pod can communicate, but the communication has to go via kube-proxy.</li><li>Pause is a root container in the pod.</li><li>Pod should contain a complete module per container.</li><li>You can use the analogy that each pod is a virtual machine.</li><li>All the communication should go through the pause between it goes out the pod<br><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/wyVam5.png" srcset="/img/loading.gif" alt=""><h2 id="Label"><a href="#Label" class="headerlink" title="Label"></a>Label</h2>Label is a description tag of a pod.<h2 id="Replication-Controller"><a href="#Replication-Controller" class="headerlink" title="Replication Controller"></a>Replication Controller</h2>It is used to replicate, delete, add new pods. It monitors the system has enough pods between nodes.<h2 id="Service"><a href="#Service" class="headerlink" title="Service"></a>Service</h2>Service is a logic group. Usually, the same services are put into the same pod. E.g Backend services are grouped into one pod and frontend services are grouped in another pod.<br><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/4iMG69.png" srcset="/img/loading.gif" alt=""></li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>k8s</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="undefined2019/12/07/hello-world/"/>
     <url>2019/12/07/hello-world/</url>
