@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>博极客</title>
+  <icon>https://broadgeek.com/icon.png</icon>
+  <subtitle>每天进步一点</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://broadgeek.com/"/>
+  <updated>2019-12-28T18:14:37.868Z</updated>
+  <id>https://broadgeek.com/</id>
+  
+  <author>
+    <name>Danny Song</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello Hexo</title>
+    <link href="https://broadgeek.com/2019/12/28/hello-world/"/>
+    <id>https://broadgeek.com/2019/12/28/hello-world/</id>
+    <published>2019-12-28T18:14:37.867Z</published>
+    <updated>2019-12-28T18:14:37.868Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post.
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="k8s" scheme="https://broadgeek.com/tags/k8s/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>How to install Node on Mac using NVM and Homebrew</title>
+    <link href="https://broadgeek.com/2019/12/23/Install-Multiple-Node/"/>
+    <id>https://broadgeek.com/2019/12/23/Install-Multiple-Node/</id>
+    <published>2019-12-24T05:06:13.000Z</published>
+    <updated>2019-12-28T18:14:37.867Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;Version Manager makes it easy to install multiple versions of Node on a Mac. You install NVM using
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Frontend" scheme="https://broadgeek.com/categories/Frontend/"/>
+    
+    
+      <category term="React" scheme="https://broadgeek.com/tags/React/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Install K8S on Centos 7.5</title>
+    <link href="https://broadgeek.com/2019/12/07/install-k8s/"/>
+    <id>https://broadgeek.com/2019/12/07/install-k8s/</id>
+    <published>2019-12-08T04:09:40.000Z</published>
+    <updated>2019-12-28T18:14:37.871Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;Install-K8S-on-Centos-7-5&quot;&gt;&lt;a href=&quot;#Install-K8S-on-Centos-7-5&quot; class=&quot;headerlink&quot; title=&quot;Install K8S on
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="k8s" scheme="https://broadgeek.com/tags/k8s/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Introduce K8S</title>
+    <link href="https://broadgeek.com/2019/12/07/k8s/"/>
+    <id>https://broadgeek.com/2019/12/07/k8s/</id>
+    <published>2019-12-08T03:30:04.000Z</published>
+    <updated>2019-12-28T18:14:37.871Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;Basic-Concept&quot;&gt;&lt;a href=&quot;#Basic-Concept&quot; class=&quot;headerlink&quot; title=&quot;Basic Concept&quot;&gt;&lt;/a&gt;Basic
+        
+      
+    
+    </summary>
+    
+    
+      <category term="DevOps" scheme="https://broadgeek.com/categories/DevOps/"/>
+    
+    
+      <category term="k8s" scheme="https://broadgeek.com/tags/k8s/"/>
+    
+  </entry>
+  
+</feed>
