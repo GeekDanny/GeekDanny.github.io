@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>博极客</title>
+  <title>极客丹尼</title>
   <icon>https://broadgeek.com/icon.png</icon>
   <subtitle>每天进步一点</subtitle>
   <link href="/atom.xml" rel="self"/>
