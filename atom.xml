@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://broadgeek.com/"/>
-  <updated>2020-05-17T17:26:04.994Z</updated>
+  <updated>2020-05-17T21:50:50.850Z</updated>
   <id>https://broadgeek.com/</id>
   
   <author>
@@ -17,11 +17,72 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>详解华为正在开发的操作系统</title>
+    <link href="https://broadgeek.com/2020/05/17/bbe/"/>
+    <id>https://broadgeek.com/2020/05/17/bbe/</id>
+    <published>2020-05-17T21:44:20.000Z</published>
+    <updated>2020-05-17T21:50:50.850Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;p&gt;转子文学城&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;读者按：
+        
+      
+    
+    </summary>
+    
+    
+      <category term="操作系统" scheme="https://broadgeek.com/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+      <category term="华为" scheme="https://broadgeek.com/tags/%E5%8D%8E%E4%B8%BA/"/>
+    
+      <category term="鸿蒙" scheme="https://broadgeek.com/tags/%E9%B8%BF%E8%92%99/"/>
+    
+      <category term="方舟" scheme="https://broadgeek.com/tags/%E6%96%B9%E8%88%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android Architecture</title>
+    <link href="https://broadgeek.com/2020/05/17/b272/"/>
+    <id>https://broadgeek.com/2020/05/17/b272/</id>
+    <published>2020-05-17T18:59:10.000Z</published>
+    <updated>2020-05-17T21:51:18.132Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Android is designed so that there’s no central point of failure, where one industry player restricts or
+        
+      
+    
+    </summary>
+    
+    
+      <category term="操作系统" scheme="https://broadgeek.com/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+      <category term="Android" scheme="https://broadgeek.com/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
     <title>美方完美封杀华为 特朗普打响中美贸易战2.0</title>
     <link href="https://broadgeek.com/2020/05/17/2bbd/"/>
     <id>https://broadgeek.com/2020/05/17/2bbd/</id>
     <published>2020-05-17T17:23:25.000Z</published>
-    <updated>2020-05-17T17:26:04.994Z</updated>
+    <updated>2020-05-17T17:26:16.406Z</updated>
     
     <summary type="html">
     
