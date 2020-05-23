@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://broadgeek.com/"/>
-  <updated>2020-05-18T20:13:21.959Z</updated>
+  <updated>2020-05-23T19:12:31.370Z</updated>
   <id>https://broadgeek.com/</id>
   
   <author>
@@ -17,11 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2020 中美爆发芯片战争</title>
+    <link href="https://broadgeek.com/2020/05/23/e277/"/>
+    <id>https://broadgeek.com/2020/05/23/e277/</id>
+    <published>2020-05-23T18:51:50.000Z</published>
+    <updated>2020-05-23T19:12:31.370Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;p&gt;编者按：&lt;/p&gt;
+&lt;p&gt;180年前发生的那场鸦片战争，英国不道德地利用其军事优势来解决当时的贸易争端，打开了大清的国门。在鸦片战争近两百年后，西方文明现在又不得不准备与中国打一场「芯片战争」。最有讽
+        
+      
+    
+    </summary>
+    
+    
+      <category term="科技观察" scheme="https://broadgeek.com/categories/%E7%A7%91%E6%8A%80%E8%A7%82%E5%AF%9F/"/>
+    
+    
+      <category term="华为" scheme="https://broadgeek.com/tags/%E5%8D%8E%E4%B8%BA/"/>
+    
+      <category term="芯片" scheme="https://broadgeek.com/tags/%E8%8A%AF%E7%89%87/"/>
+    
+      <category term="麒麟" scheme="https://broadgeek.com/tags/%E9%BA%92%E9%BA%9F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Understanding the Android Compilation Process</title>
     <link href="https://broadgeek.com/2020/05/18/156f/"/>
     <id>https://broadgeek.com/2020/05/18/156f/</id>
     <published>2020-05-18T20:08:29.000Z</published>
-    <updated>2020-05-18T20:13:21.959Z</updated>
+    <updated>2020-05-18T20:13:28.956Z</updated>
     
     <summary type="html">
     
@@ -168,7 +201,7 @@
     <link href="https://broadgeek.com/2020/05/17/7b8a/"/>
     <id>https://broadgeek.com/2020/05/17/7b8a/</id>
     <published>2020-05-17T17:09:19.000Z</published>
-    <updated>2020-05-17T17:18:22.713Z</updated>
+    <updated>2020-05-23T18:54:22.593Z</updated>
     
     <summary type="html">
     
@@ -183,9 +216,7 @@
     </summary>
     
     
-      <category term="芯片" scheme="https://broadgeek.com/categories/%E8%8A%AF%E7%89%87/"/>
-    
-      <category term="科技观察" scheme="https://broadgeek.com/categories/%E8%8A%AF%E7%89%87/%E7%A7%91%E6%8A%80%E8%A7%82%E5%AF%9F/"/>
+      <category term="科技观察" scheme="https://broadgeek.com/categories/%E7%A7%91%E6%8A%80%E8%A7%82%E5%AF%9F/"/>
     
     
       <category term="华为" scheme="https://broadgeek.com/tags/%E5%8D%8E%E4%B8%BA/"/>
