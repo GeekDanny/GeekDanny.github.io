@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://broadgeek.com/"/>
-  <updated>2020-05-23T19:15:37.484Z</updated>
+  <updated>2020-05-25T18:18:39.062Z</updated>
   <id>https://broadgeek.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Setup Android Work Environment</title>
+    <link href="https://broadgeek.com/2020/05/25/417d/"/>
+    <id>https://broadgeek.com/2020/05/25/417d/</id>
+    <published>2020-05-25T18:12:25.000Z</published>
+    <updated>2020-05-25T18:18:39.062Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&quot;设置-Mac-OS-编译环境&quot;&gt;&lt;a href=&quot;#设置-Mac-OS-编译环境&quot; class=&quot;headerlink&quot; title=&quot;设置 Mac OS 编译环境&quot;&gt;&lt;/a&gt;设置 Mac OS
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程技术" scheme="https://broadgeek.com/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Android" scheme="https://broadgeek.com/tags/Android/"/>
+    
+      <category term="编译环境" scheme="https://broadgeek.com/tags/%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/"/>
+    
+  </entry>
   
   <entry>
     <title>2020 中美爆发芯片战争</title>
