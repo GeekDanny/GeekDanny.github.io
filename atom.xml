@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://broadgeek.com/"/>
-  <updated>2020-05-25T18:22:55.044Z</updated>
+  <updated>2020-05-26T02:56:30.658Z</updated>
   <id>https://broadgeek.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Object-Relational Impedance Mismatch</title>
+    <link href="https://broadgeek.com/2020/05/25/3cd2/"/>
+    <id>https://broadgeek.com/2020/05/25/3cd2/</id>
+    <published>2020-05-26T02:44:23.000Z</published>
+    <updated>2020-05-26T02:56:30.658Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://www.agiledata.org/essays/objectOrientation101.html&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="设计架构" scheme="https://broadgeek.com/categories/%E8%AE%BE%E8%AE%A1%E6%9E%B6%E6%9E%84/"/>
+    
+    
+      <category term="Architecture" scheme="https://broadgeek.com/tags/Architecture/"/>
+    
+      <category term="Design" scheme="https://broadgeek.com/tags/Design/"/>
+    
+  </entry>
   
   <entry>
     <title>Setup Android Work Environment</title>
@@ -561,33 +590,6 @@
     
     </summary>
     
-    
-    
-      <category term="k8s" scheme="https://broadgeek.com/tags/k8s/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Introduce K8S</title>
-    <link href="https://broadgeek.com/2019/12/07/1031/"/>
-    <id>https://broadgeek.com/2019/12/07/1031/</id>
-    <published>2019-12-08T03:30:04.000Z</published>
-    <updated>2020-05-17T01:15:56.589Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;Basic-Concept&quot;&gt;&lt;a href=&quot;#Basic-Concept&quot; class=&quot;headerlink&quot; title=&quot;Basic Concept&quot;&gt;&lt;/a&gt;Basic
-        
-      
-    
-    </summary>
-    
-    
-      <category term="DevOps" scheme="https://broadgeek.com/categories/DevOps/"/>
     
     
       <category term="k8s" scheme="https://broadgeek.com/tags/k8s/"/>
