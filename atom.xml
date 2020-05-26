@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://broadgeek.com/"/>
-  <updated>2020-05-26T02:56:30.658Z</updated>
+  <updated>2020-05-26T02:56:41.254Z</updated>
   <id>https://broadgeek.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://broadgeek.com/2020/05/25/3cd2/"/>
     <id>https://broadgeek.com/2020/05/25/3cd2/</id>
     <published>2020-05-26T02:44:23.000Z</published>
-    <updated>2020-05-26T02:56:30.658Z</updated>
+    <updated>2020-05-26T02:56:41.254Z</updated>
     
     <summary type="html">
     
@@ -288,7 +288,7 @@
     <link href="https://broadgeek.com/2020/05/17/a204/"/>
     <id>https://broadgeek.com/2020/05/17/a204/</id>
     <published>2020-05-17T16:46:24.000Z</published>
-    <updated>2020-05-17T17:11:55.530Z</updated>
+    <updated>2020-05-26T03:00:05.679Z</updated>
     
     <summary type="html">
     
@@ -306,9 +306,7 @@
     </summary>
     
     
-      <category term="芯片" scheme="https://broadgeek.com/categories/%E8%8A%AF%E7%89%87/"/>
-    
-      <category term="科技观察" scheme="https://broadgeek.com/categories/%E8%8A%AF%E7%89%87/%E7%A7%91%E6%8A%80%E8%A7%82%E5%AF%9F/"/>
+      <category term="科技观察" scheme="https://broadgeek.com/categories/%E7%A7%91%E6%8A%80%E8%A7%82%E5%AF%9F/"/>
     
     
       <category term="芯片" scheme="https://broadgeek.com/tags/%E8%8A%AF%E7%89%87/"/>
