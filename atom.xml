@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://broadgeek.com/"/>
-  <updated>2020-05-26T02:56:41.254Z</updated>
+  <updated>2020-05-28T21:22:34.793Z</updated>
   <id>https://broadgeek.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如果失去华为，中国会怎样?</title>
+    <link href="https://broadgeek.com/2020/05/28/bda3/"/>
+    <id>https://broadgeek.com/2020/05/28/bda3/</id>
+    <published>2020-05-28T16:46:59.000Z</published>
+    <updated>2020-05-28T21:22:34.793Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&quot;如果失去华为，中国会怎么样-关系到中国国运-组图&quot;&gt;&lt;a href=&quot;#如果失去华为，中国会怎么样-关系到中国国运-组图&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="科技观察" scheme="https://broadgeek.com/categories/%E7%A7%91%E6%8A%80%E8%A7%82%E5%AF%9F/"/>
+    
+    
+      <category term="芯片" scheme="https://broadgeek.com/tags/%E8%8A%AF%E7%89%87/"/>
+    
+      <category term="华为" scheme="https://broadgeek.com/tags/%E5%8D%8E%E4%B8%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>Object-Relational Impedance Mismatch</title>
@@ -558,31 +587,6 @@
         
         
           &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post.
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="k8s" scheme="https://broadgeek.com/tags/k8s/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Install K8S on Centos 7.5</title>
-    <link href="https://broadgeek.com/2019/12/07/cbc1/"/>
-    <id>https://broadgeek.com/2019/12/07/cbc1/</id>
-    <published>2019-12-08T04:09:40.000Z</published>
-    <updated>2020-05-17T01:15:56.588Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;Install-K8S-on-Centos-7-5&quot;&gt;&lt;a href=&quot;#Install-K8S-on-Centos-7-5&quot; class=&quot;headerlink&quot; title=&quot;Install K8S on
         
       
     
