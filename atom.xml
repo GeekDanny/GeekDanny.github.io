@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://broadgeek.com/"/>
-  <updated>2020-06-21T19:26:57.259Z</updated>
+  <updated>2020-06-21T19:49:15.895Z</updated>
   <id>https://broadgeek.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://broadgeek.com/2020/06/21/276b/"/>
     <id>https://broadgeek.com/2020/06/21/276b/</id>
     <published>2020-06-21T16:18:52.000Z</published>
-    <updated>2020-06-21T19:26:57.259Z</updated>
+    <updated>2020-06-21T19:49:15.895Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,8 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;温习资料&quot;&gt;&lt;a href=&quot;#温习资料&quot; class=&quot;headerlink&quot; title=&quot;温习资料&quot;&gt;&lt;/a&gt;温习资料&lt;/h1&gt;&lt;h2 id=&quot;基础篇&quot;&gt;&lt;a href=&quot;#基础篇&quot;
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;基础篇&quot;&gt;&lt;a href=&quot;#基础篇&quot; class=&quot;headerlink&quot; title=&quot;基础篇&quot;&gt;&lt;/a&gt;基础篇&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled type=&quot;checkbox&quot;&gt;
         
       
     
@@ -56,7 +57,7 @@
     <link href="https://broadgeek.com/2020/06/10/dc8/"/>
     <id>https://broadgeek.com/2020/06/10/dc8/</id>
     <published>2020-06-10T20:53:57.000Z</published>
-    <updated>2020-06-10T20:55:28.334Z</updated>
+    <updated>2020-06-21T19:49:59.442Z</updated>
     
     <summary type="html">
     
@@ -64,7 +65,7 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;今天 ,Arm 推出了 新的 Cortex-A77 CPU微架构， 但更重要的 推出 了新的 Valhall GPU 架构和新的 Mali-G77 GPU 。 Bifrost 架构 推出
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;回顾Arm 推出了 新的 Cortex-A77 CPU微架构， 但更重要的 推出 了新的 Valhall GPU 架构和新的 Mali-G77 GPU 。 Bifrost 架构 推出
         
       
     
