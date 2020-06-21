@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>嵌入式架构师 重温</title>
+      <link href="/2020/06/21/276b/"/>
+      <url>/2020/06/21/276b/</url>
+      
+        <content type="html"><![CDATA[<html><head></head><body><h1 id="温习资料"><a href="#温习资料" class="headerlink" title="温习资料"></a>温习资料</h1><h2 id="基础篇"><a href="#基础篇" class="headerlink" title="基础篇"></a>基础篇</h2><ul><li><input disabled type="checkbox"> <a href="https://drive.google.com/drive/folders/1G1WUM2CrcWgBzqGdm6yI9diJkeKK0VHv?usp=sharing" target="_blank" rel="noopener">C.Primer.Plus (6th,2013.12）Stephen.Prata</a></li><li><input disabled type="checkbox"> <a href="https://drive.google.com/drive/folders/1G1WUM2CrcWgBzqGdm6yI9diJkeKK0VHv?usp=sharing" target="_blank" rel="noopener">Primer c++ 第5版</a></li><li><input disabled type="checkbox"> <a href="https://drive.google.com/drive/folders/13zMrxQ65eBJPEhSxLB3kqGoyLX2dQJwp?usp=sharing" target="_blank" rel="noopener">精品C语言 （视频）</a></li><li><input disabled type="checkbox"> <a href="https://drive.google.com/drive/folders/1DfKXd80155dlNEu-btKcBp4dV0-2_kKg?usp=sharing" target="_blank" rel="noopener">C语言进阶 （视频）</a></li><li><input disabled type="checkbox"> <a href="https://drive.google.com/drive/folders/1XDY55MEK5HTBjkoGUv3kviwqEi1jwlVC?usp=sharing" target="_blank" rel="noopener">C++深入浅出 （视频）</a></li><li><input disabled type="checkbox"> <a href="https://drive.google.com/drive/folders/13zMrxQ65eBJPEhSxLB3kqGoyLX2dQJwp?usp=sharing" target="_blank" rel="noopener">精品汇编课程（视频）</a></li></ul><h2 id="中极篇"><a href="#中极篇" class="headerlink" title="中极篇"></a>中极篇</h2><ul><li><input disabled type="checkbox"> Design Patterns in Modern C++： <a href="https://drive.google.com/file/d/1DPp956Entl-S5d4WxvupG5rk5fSRWRwM/view?usp=sharing" target="_blank" rel="noopener">Book</a>， <a href="https://drive.google.com/drive/folders/186OtxMC7cAlh_U7i50Nh_o2zXcLndEb9?usp=sharing" target="_blank" rel="noopener">视频</a>，<a href="https://github.com/Apress/design-patterns-in-modern-cpp" target="_blank" rel="noopener">Code</a></li><li><input disabled type="checkbox"> <a href="https://drive.google.com/drive/folders/1jQnXlUjyoPTe18FpJvcTmzTCDn_GdDXB?usp=sharing" target="_blank" rel="noopener">c++系统工程师</a></li><li><input disabled type="checkbox"> <a href="https://drive.google.com/file/d/1BYehUwOBD1wSxLjHVO35o9FVObVeX2Ib/view?usp=sharing" target="_blank" rel="noopener">C++性能优化指南</a></li><li><input disabled type="checkbox"> <a href="https://drive.google.com/file/d/1UhzXFe-UU7mW2Jcz3EtDeRbyygzNmXSJ/view?usp=sharing" target="_blank" rel="noopener">编写高质量代码：改善C++程序的150个建议</a></li><li><input disabled type="checkbox"> <a href="https://drive.google.com/drive/folders/1OpB5dcgvAgIen1xJPnKBqXSj9I-_Cinu?usp=sharing" target="_blank" rel="noopener">Linux.Kernel.Fundamentals （视频）</a></li></ul><h2 id="高级篇"><a href="#高级篇" class="headerlink" title="高级篇"></a>高级篇</h2><ul><li><input disabled type="checkbox"> <a href="https://drive.google.com/drive/folders/1A4DFq5jK_iAIuUrr59-NcaCVPO67zIez?usp=sharing" target="_blank" rel="noopener">Linux Kernel Development (3rd Edition)</a></li><li><input disabled type="checkbox"> <a href="https://drive.google.com/file/d/1wsvPulN7v3YtpHe4GytI1NAjj9puGjRU/view?usp=sharing" target="_blank" rel="noopener">深入Linux内核架构</a></li><li><input disabled type="checkbox"> <a href="https://drive.google.com/drive/folders/1-HoKu1TecFPOhmQf41XrlrnmKtQtesb-?usp=sharing" target="_blank" rel="noopener">Domain-Driven Design - Tackling Complexity in the Heart of Software-Eric Evans 2003 （领域驱动设计：软件核心复杂性应对之道）</a></li><li><input disabled type="checkbox"> <a href="https://drive.google.com/drive/folders/18YH5qU4V-HzSD5MCzY19t78knLzzTajg?usp=sharing" target="_blank" rel="noopener">Implementing Domain-Driven Design-2013（实现领域驱动设计 （美）弗农著）</a></li></ul><h2 id="专家篇"><a href="#专家篇" class="headerlink" title="专家篇"></a>专家篇</h2><ul><li><input disabled type="checkbox"> linux内核探秘</li></ul><h2 id="选读"><a href="#选读" class="headerlink" title="选读"></a>选读</h2><ul><li><a href="https://drive.google.com/file/d/1hy4oA8ywfnJ1sqd4gT5gDiURDT3WQbOe/view?usp=sharing" target="_blank" rel="noopener">Understanding the LINUX Kernel -2001</a></li><li>基于Linux的C++  (NAS 918 Video)</li></ul></body></html>]]></content>
+      
+      
+      <categories>
+          
+          <category> Architecture </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C </tag>
+            
+            <tag> C++ </tag>
+            
+            <tag> Linux </tag>
+            
+            <tag> Kernel </tag>
+            
+            <tag> Design Patterns </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Arm全新GPU深度解读：一次重大的飞跃</title>
       <link href="/2020/06/10/dc8/"/>
       <url>/2020/06/10/dc8/</url>

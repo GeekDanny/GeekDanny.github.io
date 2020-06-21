@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://broadgeek.com/"/>
-  <updated>2020-06-10T20:55:28.334Z</updated>
+  <updated>2020-06-21T19:26:57.259Z</updated>
   <id>https://broadgeek.com/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>嵌入式架构师 重温</title>
+    <link href="https://broadgeek.com/2020/06/21/276b/"/>
+    <id>https://broadgeek.com/2020/06/21/276b/</id>
+    <published>2020-06-21T16:18:52.000Z</published>
+    <updated>2020-06-21T19:26:57.259Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;温习资料&quot;&gt;&lt;a href=&quot;#温习资料&quot; class=&quot;headerlink&quot; title=&quot;温习资料&quot;&gt;&lt;/a&gt;温习资料&lt;/h1&gt;&lt;h2 id=&quot;基础篇&quot;&gt;&lt;a href=&quot;#基础篇&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Architecture" scheme="https://broadgeek.com/categories/Architecture/"/>
+    
+    
+      <category term="C" scheme="https://broadgeek.com/tags/C/"/>
+    
+      <category term="C++" scheme="https://broadgeek.com/tags/C/"/>
+    
+      <category term="Linux" scheme="https://broadgeek.com/tags/Linux/"/>
+    
+      <category term="Kernel" scheme="https://broadgeek.com/tags/Kernel/"/>
+    
+      <category term="Design Patterns" scheme="https://broadgeek.com/tags/Design-Patterns/"/>
+    
+  </entry>
   
   <entry>
     <title>Arm全新GPU深度解读：一次重大的飞跃</title>
@@ -570,33 +605,6 @@
       <category term="Yuque" scheme="https://broadgeek.com/tags/Yuque/"/>
     
       <category term="Mac" scheme="https://broadgeek.com/tags/Mac/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GoDaddy with Github Pages</title>
-    <link href="https://broadgeek.com/2019/12/29/7e78/"/>
-    <id>https://broadgeek.com/2019/12/29/7e78/</id>
-    <published>2019-12-29T21:15:48.000Z</published>
-    <updated>2020-05-17T01:15:56.585Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Github provides &lt;a href=&quot;https://help.github.com/articles/using-a-custom-domain-with-github-pages/&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="Github" scheme="https://broadgeek.com/tags/Github/"/>
-    
-      <category term="GoDaddy" scheme="https://broadgeek.com/tags/GoDaddy/"/>
     
   </entry>
   
