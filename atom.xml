@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://broadgeek.com/"/>
-  <updated>2020-06-21T19:49:15.895Z</updated>
+  <updated>2020-06-22T02:07:56.474Z</updated>
   <id>https://broadgeek.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Code Committer on Design Patterns-Single Responsibility Principle</title>
+    <link href="https://broadgeek.com/2020/06/21/ab5f/"/>
+    <id>https://broadgeek.com/2020/06/21/ab5f/</id>
+    <published>2020-06-21T19:52:27.000Z</published>
+    <updated>2020-06-22T02:07:56.474Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Architecture" scheme="https://broadgeek.com/categories/Architecture/"/>
+    
+    
+      <category term="C++" scheme="https://broadgeek.com/tags/C/"/>
+    
+      <category term="Design Patterns" scheme="https://broadgeek.com/tags/Design-Patterns/"/>
+    
+  </entry>
   
   <entry>
     <title>嵌入式架构师 重温</title>
@@ -576,36 +605,6 @@
       <category term="Java" scheme="https://broadgeek.com/tags/Java/"/>
     
       <category term="Framework" scheme="https://broadgeek.com/tags/Framework/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Setup a Hexo Editor Environment on Mac</title>
-    <link href="https://broadgeek.com/2019/12/30/3803/"/>
-    <id>https://broadgeek.com/2019/12/30/3803/</id>
-    <published>2019-12-30T19:12:03.000Z</published>
-    <updated>2020-05-17T01:15:56.586Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;a name=&quot;diUkv&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;Use-Upic-to-Upload-to-the-Image-Bed&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="Hexo" scheme="https://broadgeek.com/tags/Hexo/"/>
-    
-      <category term="Yuque" scheme="https://broadgeek.com/tags/Yuque/"/>
-    
-      <category term="Mac" scheme="https://broadgeek.com/tags/Mac/"/>
     
   </entry>
   
