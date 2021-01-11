@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://broadgeek.com/"/>
-  <updated>2021-01-11T22:37:34.575Z</updated>
+  <updated>2021-01-11T22:39:52.367Z</updated>
   <id>https://broadgeek.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://broadgeek.com/2021/01/11/7c7/"/>
     <id>https://broadgeek.com/2021/01/11/7c7/</id>
     <published>2021-01-11T22:26:51.000Z</published>
-    <updated>2021-01-11T22:37:34.575Z</updated>
+    <updated>2021-01-11T22:39:52.367Z</updated>
     
     <summary type="html">
     
@@ -37,6 +37,10 @@
     </summary>
     
     
+      <category term="GPU" scheme="https://broadgeek.com/categories/GPU/"/>
+    
+    
+      <category term="Vulkan" scheme="https://broadgeek.com/tags/Vulkan/"/>
     
   </entry>
   
