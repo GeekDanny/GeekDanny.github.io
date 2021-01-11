@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://broadgeek.com/"/>
-  <updated>2021-01-11T22:23:45.699Z</updated>
+  <updated>2021-01-11T22:37:34.575Z</updated>
   <id>https://broadgeek.com/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Vulkan 导读2: Command Buffer 和内存管理</title>
+    <link href="https://broadgeek.com/2021/01/11/7c7/"/>
+    <id>https://broadgeek.com/2021/01/11/7c7/</id>
+    <published>2021-01-11T22:26:51.000Z</published>
+    <updated>2021-01-11T22:37:34.575Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;导读2 主要是讲解第五章，之所以跳过2，3，4章是因为这三章关键概念很少，更多的是围绕Vulkan初始化阶段的准备工作。第五章重点讲解了CB和内存的概念，值得对其细节进行整理。&lt;/p&gt;
+&lt;p&gt;一个command
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Vulkan 导读1: 下一代图形API</title>
     <link href="https://broadgeek.com/2021/01/11/59e9/"/>
     <id>https://broadgeek.com/2021/01/11/59e9/</id>
     <published>2021-01-11T22:06:46.000Z</published>
-    <updated>2021-01-11T22:23:45.699Z</updated>
+    <updated>2021-01-11T22:24:13.174Z</updated>
     
     <summary type="html">
     
@@ -40,29 +64,6 @@
     
     
       <category term="Vulkan" scheme="https://broadgeek.com/tags/Vulkan/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Learning Vulkan API with C++: Lesson 1</title>
-    <link href="https://broadgeek.com/2020/07/18/4c74/"/>
-    <id>https://broadgeek.com/2020/07/18/4c74/</id>
-    <published>2020-07-18T18:03:21.000Z</published>
-    <updated>2020-12-01T21:03:21.072Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;
-        
-      
-    
-    </summary>
-    
-    
     
   </entry>
   
