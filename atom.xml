@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://broadgeek.com/"/>
-  <updated>2020-06-29T21:54:05.112Z</updated>
+  <updated>2021-01-11T22:23:45.699Z</updated>
   <id>https://broadgeek.com/</id>
   
   <author>
@@ -17,11 +17,84 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Vulkan 导读1: 下一代图形API</title>
+    <link href="https://broadgeek.com/2021/01/11/59e9/"/>
+    <id>https://broadgeek.com/2021/01/11/59e9/</id>
+    <published>2021-01-11T22:06:46.000Z</published>
+    <updated>2021-01-11T22:23:45.699Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;写在之前：此篇为Danny针对《Learning
+        
+      
+    
+    </summary>
+    
+    
+      <category term="GPU" scheme="https://broadgeek.com/categories/GPU/"/>
+    
+    
+      <category term="Vulkan" scheme="https://broadgeek.com/tags/Vulkan/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Learning Vulkan API with C++: Lesson 1</title>
+    <link href="https://broadgeek.com/2020/07/18/4c74/"/>
+    <id>https://broadgeek.com/2020/07/18/4c74/</id>
+    <published>2020-07-18T18:03:21.000Z</published>
+    <updated>2020-12-01T21:03:21.072Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>C++ 的函数模板和类模板</title>
+    <link href="https://broadgeek.com/2020/06/29/c305/"/>
+    <id>https://broadgeek.com/2020/06/29/c305/</id>
+    <published>2020-06-29T23:57:18.000Z</published>
+    <updated>2020-12-01T21:03:21.071Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;&lt;p&gt;C++提供函数模板（function
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>C++：在堆上创建对象，还是在栈上?</title>
     <link href="https://broadgeek.com/2020/06/29/584/"/>
     <id>https://broadgeek.com/2020/06/29/584/</id>
     <published>2020-06-29T21:29:21.000Z</published>
-    <updated>2020-06-29T21:54:05.112Z</updated>
+    <updated>2020-06-29T21:54:16.593Z</updated>
     
     <summary type="html">
     
@@ -48,7 +121,7 @@
     <link href="https://broadgeek.com/2020/06/29/52b1/"/>
     <id>https://broadgeek.com/2020/06/29/52b1/</id>
     <published>2020-06-29T18:39:35.000Z</published>
-    <updated>2020-06-29T21:28:30.136Z</updated>
+    <updated>2020-06-29T21:54:16.596Z</updated>
     
     <summary type="html">
     
@@ -77,7 +150,7 @@
     <link href="https://broadgeek.com/2020/06/27/6736/"/>
     <id>https://broadgeek.com/2020/06/27/6736/</id>
     <published>2020-06-27T16:21:52.000Z</published>
-    <updated>2020-06-28T01:32:20.954Z</updated>
+    <updated>2020-06-29T21:54:16.595Z</updated>
     
     <summary type="html">
     
@@ -501,94 +574,6 @@
     
     
       <category term="中美对抗" scheme="https://broadgeek.com/tags/%E4%B8%AD%E7%BE%8E%E5%AF%B9%E6%8A%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>美国封杀华为“断芯”升级 中国或砍苹果出气</title>
-    <link href="https://broadgeek.com/2020/05/17/7b8a/"/>
-    <id>https://broadgeek.com/2020/05/17/7b8a/</id>
-    <published>2020-05-17T17:09:19.000Z</published>
-    <updated>2020-05-23T18:54:22.593Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;美国商务部星期五（5月15日）宣布扩大对中国华为公司的禁令，要求那些依赖美国设备和软件的外国芯片制造商必须取得美国商务部的特许，方可向中国华为公司出口芯片产品。中国官方媒体暗示，中国可能出台针对苹果、波音等美国企业的报复措施
-        
-      
-    
-    </summary>
-    
-    
-      <category term="科技观察" scheme="https://broadgeek.com/categories/%E7%A7%91%E6%8A%80%E8%A7%82%E5%AF%9F/"/>
-    
-    
-      <category term="芯片" scheme="https://broadgeek.com/tags/%E8%8A%AF%E7%89%87/"/>
-    
-      <category term="华为" scheme="https://broadgeek.com/tags/%E5%8D%8E%E4%B8%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>中芯国际获国家200亿注资，拟取代台积电曲线救华为</title>
-    <link href="https://broadgeek.com/2020/05/17/a204/"/>
-    <id>https://broadgeek.com/2020/05/17/a204/</id>
-    <published>2020-05-17T16:46:24.000Z</published>
-    <updated>2020-05-26T03:00:05.679Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
-&lt;p&gt;转载6park&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;近日，来自中芯国际官方消息，国家集成电路基金会等多方同意分别向中芯南方注资15亿美元及7.5亿美元。消息已证实，中芯控股与国家集成电路基金等
-        
-      
-    
-    </summary>
-    
-    
-      <category term="科技观察" scheme="https://broadgeek.com/categories/%E7%A7%91%E6%8A%80%E8%A7%82%E5%AF%9F/"/>
-    
-    
-      <category term="芯片" scheme="https://broadgeek.com/tags/%E8%8A%AF%E7%89%87/"/>
-    
-      <category term="华为" scheme="https://broadgeek.com/tags/%E5%8D%8E%E4%B8%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>中国人的“芯病”何去何从</title>
-    <link href="https://broadgeek.com/2020/05/16/f2b1/"/>
-    <id>https://broadgeek.com/2020/05/16/f2b1/</id>
-    <published>2020-05-17T00:08:36.000Z</published>
-    <updated>2020-05-17T02:13:56.002Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;中国芯片之殇&quot;&gt;&lt;a href=&quot;#中国芯片之殇&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="华为" scheme="https://broadgeek.com/categories/%E5%8D%8E%E4%B8%BA/"/>
-    
-    
-      <category term="华为" scheme="https://broadgeek.com/tags/%E5%8D%8E%E4%B8%BA/"/>
     
   </entry>
   
