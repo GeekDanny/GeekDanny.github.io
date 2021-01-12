@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://broadgeek.com/"/>
-  <updated>2021-01-11T22:40:49.270Z</updated>
+  <updated>2021-01-12T04:52:40.466Z</updated>
   <id>https://broadgeek.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vulkan 导读3: 分配Image资源和创建Swapchain</title>
+    <link href="https://broadgeek.com/2021/01/11/b21/"/>
+    <id>https://broadgeek.com/2021/01/11/b21/</id>
+    <published>2021-01-11T23:18:14.000Z</published>
+    <updated>2021-01-12T04:52:40.466Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;导读2学习了CB和内存管理。这一节对《Learning Vulkan》的第6章的导读。特介绍了两个主要概念，一个是image resources，另一个是swapchain 和 depth
+        
+      
+    
+    </summary>
+    
+    
+      <category term="GPU" scheme="https://broadgeek.com/categories/GPU/"/>
+    
+    
+      <category term="Vulkan" scheme="https://broadgeek.com/tags/Vulkan/"/>
+    
+  </entry>
   
   <entry>
     <title>Vulkan 导读2: Command Buffer 和内存管理</title>
@@ -549,34 +576,6 @@
     
     
       <category term="华为" scheme="https://broadgeek.com/tags/%E5%8D%8E%E4%B8%BA/"/>
-    
-      <category term="中美对抗" scheme="https://broadgeek.com/tags/%E4%B8%AD%E7%BE%8E%E5%AF%B9%E6%8A%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>全球化2.0与中国“战略性分手”的三种形式</title>
-    <link href="https://broadgeek.com/2020/05/17/ba7b/"/>
-    <id>https://broadgeek.com/2020/05/17/ba7b/</id>
-    <published>2020-05-17T17:13:18.000Z</published>
-    <updated>2020-05-17T17:21:17.874Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
-&lt;p&gt;文章来源:
-        
-      
-    
-    </summary>
-    
-    
-      <category term="国际经济" scheme="https://broadgeek.com/categories/%E5%9B%BD%E9%99%85%E7%BB%8F%E6%B5%8E/"/>
-    
     
       <category term="中美对抗" scheme="https://broadgeek.com/tags/%E4%B8%AD%E7%BE%8E%E5%AF%B9%E6%8A%97/"/>
     
