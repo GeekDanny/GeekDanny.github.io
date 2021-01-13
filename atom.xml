@@ -17,33 +17,6 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Setup OpenGL Development with Clion on MacOS</title>
-    <link href="https://broadgeek.com/2021/01/12/2236/"/>
-    <id>https://broadgeek.com/2021/01/12/2236/</id>
-    <published>2021-01-12T19:06:07.000Z</published>
-    <updated>2021-01-12T19:06:07.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="GPU" scheme="https://broadgeek.com/categories/GPU/"/>
-    
-    
-      <category term="OpenGL" scheme="https://broadgeek.com/tags/OpenGL/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Setup Vulkan Development Environment with Clion on MacOS</title>
     <link href="https://broadgeek.com/2021/01/12/2270/"/>
     <id>https://broadgeek.com/2021/01/12/2270/</id>
@@ -67,6 +40,33 @@
     
     
       <category term="Vulkan" scheme="https://broadgeek.com/tags/Vulkan/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Setup OpenGL Development with Clion on MacOS</title>
+    <link href="https://broadgeek.com/2021/01/12/2236/"/>
+    <id>https://broadgeek.com/2021/01/12/2236/</id>
+    <published>2021-01-12T19:06:07.000Z</published>
+    <updated>2021-01-12T19:06:07.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="GPU" scheme="https://broadgeek.com/categories/GPU/"/>
+    
+    
+      <category term="OpenGL" scheme="https://broadgeek.com/tags/OpenGL/"/>
     
   </entry>
   
