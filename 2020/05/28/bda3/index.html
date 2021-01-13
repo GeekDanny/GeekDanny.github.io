@@ -1,86 +1,183 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"><title>如果失去华为，中国会怎样? | 极客丹尼</title><meta name="description" content="如果失去华为，中国会怎样?"><meta name="keywords" content="芯片,华为"><meta name="author" content="Danny Song"><meta name="copyright" content="Danny Song"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="https://raw.githubusercontent.com/geekdanny/images/master/kirito.ico"><link rel="preconnect" href="//cdn.jsdelivr.net"><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin><link rel="preconnect" href="//busuanzi.ibruce.info"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="如果失去华为，中国会怎样?"><meta name="twitter:description" content="如果失去华为，中国会怎样?"><meta name="twitter:image" content="https://raw.githubusercontent.com/geekdanny/images/master/blog/cORXK2.png"><meta property="og:type" content="article"><meta property="og:title" content="如果失去华为，中国会怎样?"><meta property="og:url" content="https://broadgeek.com/2020/05/28/bda3/"><meta property="og:site_name" content="极客丹尼"><meta property="og:description" content="如果失去华为，中国会怎样?"><meta property="og:image" content="https://raw.githubusercontent.com/geekdanny/images/master/blog/cORXK2.png"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>const autoChangeMode = 'false'
-var t = Cookies.get("theme");
-if (autoChangeMode == '1'){
-const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
-const isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
-const isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
-const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
-
-if (t === undefined){
-  if (isLightMode) activateLightMode()
-  else if (isDarkMode) activateDarkMode()
-  else if (isNotSpecified || hasNoSupport){
-    console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
-    now = new Date();
-    hour = now.getHours();
-    isNight = hour < 6 || hour >= 18
-    isNight ? activateDarkMode() : activateLightMode()
-}
-} else if (t == 'light') activateLightMode()
-else activateDarkMode()
-
-
-} else if (autoChangeMode == '2'){
-  now = new Date();
-  hour = now.getHours();
-  isNight = hour < 6 || hour >= 18
-  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
-  else if (t === 'light') activateLightMode()
-  else activateDarkMode() 
-} else {
-  if ( t == 'dark' ) activateDarkMode()
-  else if ( t == 'light') activateLightMode()
-}
-
-function activateDarkMode(){
-  document.documentElement.setAttribute('data-theme', 'dark')
-  if (document.querySelector('meta[name="theme-color"]') !== null){
-    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
-  }
-}
-function activateLightMode(){
-  document.documentElement.setAttribute('data-theme', 'light')
-  if (document.querySelector('meta[name="theme-color"]') !== null){
-  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
-  }
-}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="canonical" href="https://broadgeek.com/2020/05/28/bda3/"><link rel="prev" title="GPU Mali" href="https://broadgeek.com/2020/06/10/8d33/"><link rel="next" title="Object-Relational Impedance Mismatch" href="https://broadgeek.com/2020/05/25/3cd2/"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>如果失去华为，中国会怎样? | 极客丹尼</title><meta name="keywords" content="芯片,华为"><meta name="author" content="Danny Song"><meta name="copyright" content="Danny Song"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="description" content="如果失去华为，中国会怎么样?关系到中国国运(组图)新闻来源: 肖磊看市 于2020-05-28 7:30:51 大字阅读 提示:新闻观点不代表本网立场 关于美国以倾国之力来猎杀华为这件事，我看到很多的讨论和分析，但总体来说偏悲观，大部分知识阶层认为中国跟美国在芯片领域的差距太大，美国这种近乎无耻的“无限追溯”，基本上就是“杀不死华为誓不罢休”的节奏，而同时认为中国可用的反制措施有限，从而得出一个结">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如果失去华为，中国会怎样?">
+<meta property="og:url" content="https://broadgeek.com/2020/05/28/bda3/index.html">
+<meta property="og:site_name" content="极客丹尼">
+<meta property="og:description" content="如果失去华为，中国会怎么样?关系到中国国运(组图)新闻来源: 肖磊看市 于2020-05-28 7:30:51 大字阅读 提示:新闻观点不代表本网立场 关于美国以倾国之力来猎杀华为这件事，我看到很多的讨论和分析，但总体来说偏悲观，大部分知识阶层认为中国跟美国在芯片领域的差距太大，美国这种近乎无耻的“无限追溯”，基本上就是“杀不死华为誓不罢休”的节奏，而同时认为中国可用的反制措施有限，从而得出一个结">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://raw.githubusercontent.com/geekdanny/images/master/blog/cORXK2.png">
+<meta property="article:published_time" content="2020-05-28T16:46:59.000Z">
+<meta property="article:modified_time" content="2020-05-28T16:46:59.000Z">
+<meta property="article:author" content="Danny Song">
+<meta property="article:tag" content="芯片">
+<meta property="article:tag" content="华为">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/geekdanny/images/master/blog/cORXK2.png"><link rel="shortcut icon" href="https://raw.githubusercontent.com/geekdanny/images/master/kirito.ico"><link rel="canonical" href="https://broadgeek.com/2020/05/28/bda3/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>var GLOBAL_CONFIG = { 
   root: '/',
   algolia: undefined,
-  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
-  translate: {"defaultEncoding":2,"translateDelay":0,"cookieDomain":"https://xxx/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简"},
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
   copy: {
     success: '复制成功',
     error: '复制错误',
     noSupport: '浏览器不支持'
   },
-  bookmark: {
-    title: 'Snackbar.bookmark.title',
-    message_prev: '按',
-    message_next: '键将本页加入书签'
+  relativeDate: {
+    homepage: false,
+    post: false
   },
-  runtime_unit: '天',
-  runtime: true,
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
   copyright: undefined,
-  ClickShowText: undefined,
-  medium_zoom: false,
-  fancybox: true,
+  lightbox: 'fancybox',
   Snackbar: undefined,
-  baiduPush: false,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+};
+
+var saveToLocal = {
+  set: function setWithExpiry(key, value, ttl) {
+    const now = new Date()
+    const expiryDay = ttl * 86400000
+    const item = {
+      value: value,
+      expiry: now.getTime() + expiryDay,
+    }
+    localStorage.setItem(key, JSON.stringify(item))
+  },
+
+  get: function getWithExpiry(key) {
+    const itemStr = localStorage.getItem(key)
+
+    if (!itemStr) {
+      return undefined
+    }
+    const item = JSON.parse(itemStr)
+    const now = new Date()
+
+    if (now.getTime() > item.expiry) {
+      localStorage.removeItem(key)
+      return undefined
+    }
+    return item.value
+  }
+}
+
+// https://stackoverflow.com/questions/16839698/jquery-getscript-alternative-in-native-javascript
+const getScript = url => new Promise((resolve, reject) => {
+  const script = document.createElement('script')
+  script.src = url
+  script.async = true
+  script.onerror = reject
+  script.onload = script.onreadystatechange = function() {
+    const loadState = this.readyState
+    if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+    script.onload = script.onreadystatechange = null
+    resolve()
+  }
+  document.head.appendChild(script)
+})</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
   isHome: false,
-  isPost: true
-  
-}</script><meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="极客丹尼" type="application/atom+xml">
-</head><body><header> <div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">极客丹尼</a></span><span class="toggle-menu pull_right close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> Categories</span></a></div></div></span><span class="pull_right" id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> 搜索</span></a></span></div></header><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="https://raw.githubusercontent.com/geekdanny/images/master/avatar.jpg" onerror="onerror=null;src='https://raw.githubusercontent.com/geekdanny/images/master/loading404.gif'" alt="avatar"></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">36</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">37</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">12</div></a></div></div></div><hr><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> Categories</span></a></div></div></div><div id="mobile-sidebar-toc"><div class="toc_mobile_headline">目录</div><div class="sidebar-toc__content"><ol class="toc_mobile_items"><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#%E5%A6%82%E6%9E%9C%E5%A4%B1%E5%8E%BB%E5%8D%8E%E4%B8%BA%EF%BC%8C%E4%B8%AD%E5%9B%BD%E4%BC%9A%E6%80%8E%E4%B9%88%E6%A0%B7-%E5%85%B3%E7%B3%BB%E5%88%B0%E4%B8%AD%E5%9B%BD%E5%9B%BD%E8%BF%90-%E7%BB%84%E5%9B%BE"><span class="toc_mobile_items-number">1.</span> <span class="toc_mobile_items-text">如果失去华为，中国会怎么样?关系到中国国运(组图)</span></a></li></ol></li><li class="toc_mobile_items-item toc_mobile_items-level-1"><a class="toc_mobile_items-link" href="#1"><span class="toc_mobile_items-number"></span> <span class="toc_mobile_items-text">1</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-1"><a class="toc_mobile_items-link" href="#2"><span class="toc_mobile_items-number"></span> <span class="toc_mobile_items-text">2</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-1"><a class="toc_mobile_items-link" href="#3"><span class="toc_mobile_items-number"></span> <span class="toc_mobile_items-text">3</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-1"><a class="toc_mobile_items-link" href="#4"><span class="toc_mobile_items-number"></span> <span class="toc_mobile_items-text">4</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-1"><a class="toc_mobile_items-link" href="#5"><span class="toc_mobile_items-number"></span> <span class="toc_mobile_items-text">5</span></a><ol class="toc_mobile_items-child"><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#%E6%97%A5%E6%9C%AC%E5%A4%B1%E5%8E%BB%E7%9A%84%E4%BA%8C%E5%8D%81%E5%B9%B4"><span class="toc_mobile_items-number">1.</span> <span class="toc_mobile_items-text">日本失去的二十年</span></a></li></ol></li><li class="toc_mobile_items-item toc_mobile_items-level-1"><a class="toc_mobile_items-link" href="#6"><span class="toc_mobile_items-number"></span> <span class="toc_mobile_items-text">6</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-1"><a class="toc_mobile_items-link" href="#7"><span class="toc_mobile_items-number"></span> <span class="toc_mobile_items-text">7</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-1"><a class="toc_mobile_items-link" href="#8"><span class="toc_mobile_items-number"></span> <span class="toc_mobile_items-text">8</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-1"><a class="toc_mobile_items-link" href="#9"><span class="toc_mobile_items-number"></span> <span class="toc_mobile_items-text">9</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-1"><a class="toc_mobile_items-link" href="#10"><span class="toc_mobile_items-number"></span> <span class="toc_mobile_items-text">10</span></a></div></div></div><div id="body-wrap"><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true">     </i><div class="auto_open" id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A6%82%E6%9E%9C%E5%A4%B1%E5%8E%BB%E5%8D%8E%E4%B8%BA%EF%BC%8C%E4%B8%AD%E5%9B%BD%E4%BC%9A%E6%80%8E%E4%B9%88%E6%A0%B7-%E5%85%B3%E7%B3%BB%E5%88%B0%E4%B8%AD%E5%9B%BD%E5%9B%BD%E8%BF%90-%E7%BB%84%E5%9B%BE"><span class="toc-number">1.</span> <span class="toc-text">如果失去华为，中国会怎么样?关系到中国国运(组图)</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1"><span class="toc-number"></span> <span class="toc-text">1</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2"><span class="toc-number"></span> <span class="toc-text">2</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3"><span class="toc-number"></span> <span class="toc-text">3</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4"><span class="toc-number"></span> <span class="toc-text">4</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5"><span class="toc-number"></span> <span class="toc-text">5</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%97%A5%E6%9C%AC%E5%A4%B1%E5%8E%BB%E7%9A%84%E4%BA%8C%E5%8D%81%E5%B9%B4"><span class="toc-number">1.</span> <span class="toc-text">日本失去的二十年</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#6"><span class="toc-number"></span> <span class="toc-text">6</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#7"><span class="toc-number"></span> <span class="toc-text">7</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#8"><span class="toc-number"></span> <span class="toc-text">8</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#9"><span class="toc-number"></span> <span class="toc-text">9</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#10"><span class="toc-number"></span> <span class="toc-text">10</span></a></div></div></div><main id="content-outer"><div id="top-container" style="background-image: url(https://raw.githubusercontent.com/geekdanny/images/master/blog/cORXK2.png)"><div id="post-info"><div id="post-title"><div class="posttitle">如果失去华为，中国会怎样?</div></div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 发表于 2020-05-28<span class="post-meta__separator">|</span><i class="fa fa-history fa-fw" aria-hidden="true"></i> 更新于 2020-05-28</time><span class="post-meta__separator">|</span><span><i class="fa fa-inbox post-meta__icon fa-fw" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%E7%A7%91%E6%8A%80%E8%A7%82%E5%AF%9F/">科技观察</a></span><div class="post-meta-wordcount"><i class="fa fa-file-word-o post-meta__icon fa-fw" aria-hidden="true"></i><span>字数总计:</span><span class="word-count">14.4k</span><span class="post-meta__separator">|</span><i class="fa fa-clock-o post-meta__icon fa-fw" aria-hidden="true"></i><span>阅读时长: 41 分钟</span><div class="post-meta-pv-cv"><span class="post-meta__separator">|</span><span><i class="fa fa-eye post-meta__icon fa-fw" aria-hidden="true"> </i>阅读量:</span><span id="busuanzi_value_page_pv"></span></div></div></div></div></div><div class="layout layout_post" id="content-inner">   <article id="post"><div class="article-container" id="post-content"><html><head></head><body><h2 id="如果失去华为，中国会怎么样-关系到中国国运-组图"><a href="#如果失去华为，中国会怎么样-关系到中国国运-组图" class="headerlink" title="如果失去华为，中国会怎么样?关系到中国国运(组图)"></a>如果失去华为，中国会怎么样?关系到中国国运(组图)</h2><p>新闻来源: 肖磊看市 于2020-05-28 7:30:51 大字阅读 <strong>提示:</strong>新闻观点不代表本网立场</p>
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2020-05-28 09:46:59'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(function () {  window.activateDarkMode = function () {
+    document.documentElement.setAttribute('data-theme', 'dark')
+    if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+    }
+  }
+  window.activateLightMode = function () {
+    document.documentElement.setAttribute('data-theme', 'light')
+   if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+    }
+  }
+  const autoChangeMode = 'false'
+  const t = saveToLocal.get('theme')
+  if (autoChangeMode === '1') {
+    const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+    const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+    const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+    if (t === undefined) {
+      if (isLightMode) activateLightMode()
+      else if (isDarkMode) activateDarkMode()
+      else if (isNotSpecified || hasNoSupport) {
+        const now = new Date()
+        const hour = now.getHours()
+        const isNight = hour <= 6 || hour >= 18
+        isNight ? activateDarkMode() : activateLightMode()
+      }
+      window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+        if (saveToLocal.get('theme') === undefined) {
+          e.matches ? activateDarkMode() : activateLightMode()
+        }
+      })
+    } else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else if (autoChangeMode === '2') {
+    const now = new Date()
+    const hour = now.getHours()
+    const isNight = hour <= 6 || hour >= 18
+    if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+    else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else {
+    if (t === 'dark') activateDarkMode()
+    else if (t === 'light') activateLightMode()
+  }const asideStatus = saveToLocal.get('aside-status')
+if (asideStatus !== undefined) {
+   if (asideStatus === 'hide') {
+     document.documentElement.classList.add('hide-aside')
+   } else {
+     document.documentElement.classList.remove('hide-aside')
+   }
+}})()</script><meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="极客丹尼" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://raw.githubusercontent.com/geekdanny/images/master/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">36</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">37</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">12</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://raw.githubusercontent.com/geekdanny/images/master/blog/cORXK2.png)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">极客丹尼</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">如果失去华为，中国会怎样?</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2020-05-28T16:46:59.000Z" title="发表于 2020-05-28 09:46:59">2020-05-28</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2020-05-28T16:46:59.000Z" title="更新于 2020-05-28 09:46:59">2020-05-28</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%A7%91%E6%8A%80%E8%A7%82%E5%AF%9F/">科技观察</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">14.4k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>41分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="如果失去华为，中国会怎么样-关系到中国国运-组图"><a href="#如果失去华为，中国会怎么样-关系到中国国运-组图" class="headerlink" title="如果失去华为，中国会怎么样?关系到中国国运(组图)"></a>如果失去华为，中国会怎么样?关系到中国国运(组图)</h2><p>新闻来源: 肖磊看市 于2020-05-28 7:30:51 大字阅读 <strong>提示:</strong>新闻观点不代表本网立场</p>
 <p>关于美国以倾国之力来猎杀华为这件事，我看到很多的讨论和分析，但总体来说偏悲观，大部分知识阶层认为中国跟美国在芯片领域的差距太大，美国这种近乎无耻的“无限追溯”，基本上就是“杀不死华为誓不罢休”的节奏，而同时认为中国可用的反制措施有限，从而得出一个结论，美国的强大超乎想象，不要再吹中国厉害了等等。</p>
 <p>当然，乐观派也有很多，把美国对华为的猎杀，看成是一种倒逼的激励机制，一时间也激发了诸多科技工作者、消费者和创业者的情绪，这是一种比较好的现象。</p>
 <p>但我要分析的角度，并不简单的是表明某种立场，因为华为的问题，不是一个简单的企业问题，美国已经将华为的问题，上升到了政治和国家安全的角度，这背后一定是有战略性考量的，中国一定要以同等的支持，来帮助华为脱困，这关系到能否保住中国改革开放成果的问题，也可以说关系到中国国运的问题（别着急反驳，听我慢慢说）。</p>
 <h1 id="1"><a href="#1" class="headerlink" title="1"></a>1</h1><p>作为全球化的坚定支持者，我个人的消费观念是，谁率先占领我的视野和体验，我就会一直用谁家的东西，直到哪天被某种体验给恶心到了，才会去换掉。华为做手机其实算比较晚的，直到现在我个人依然没有买过华为的手机，也跟华为没有任何利益关系，不存在对华为这家公司有特殊的感情，所以我的分析是基于整个全球发展历史和政治、经济，以及中美问题，而非一家公司或一个产业。</p>
 <p>那华为到底代表着什么呢？</p>
 <p>我给大家举一个例子，比如中国顶级理工科学府清华大学（也是综合性大学），2019年主要就业去向，在大公司里面，华为排名第一，招聘了189人。</p>
-<p><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/geekdanny/images/master/blog/zeGyEr.png" data-fancybox="group" data-caption="zeGyEr" class="fancybox"><img alt="zeGyEr" title="zeGyEr" data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/zeGyEr.png" class="lazyload"></a></p>
+<p><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/zeGyEr.png" alt="zeGyEr"></p>
 <p>请注意，这个数字接近于第二名至第四名的总和，那第二名至第四名都是什么企业或组织呢，分别是大名鼎鼎的腾讯、阿里巴巴、国家电网、中国建筑集团。而腾讯和阿里巴巴，在清华大学的招聘人数加起来，也只有华为招聘人数的一半。</p>
 <p>如果你再去看看2018年给华为输送人才的大学，你就会发现，全中国最牛的23所理工科类大学，也可以说未来最顶级的中国理工科人才，仅2018年，就有4621名被华为收入麾下。</p>
-<p><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/geekdanny/images/master/blog/q0lV6y.png" data-fancybox="group" data-caption="q0lV6y" class="fancybox"><img alt="q0lV6y" title="q0lV6y" data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/q0lV6y.png" class="lazyload"></a></p>
+<p><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/q0lV6y.png" alt="q0lV6y"></p>
 <p>华为所代表的，已经不是单纯的一家企业，而是中国人才、科技，以及教育等等综合实力的一个承载、发挥和蓄能池，一旦华为在国际市场失败，意味着中国企业吸引国内顶尖理工科人才的能力将损失惨重，甚至面临灭顶之灾。</p>
 <p>也可以这么说，中国出台那么多吸引高科技人才的行政政策，其实远远比上建立一家像华为一样的科技公司有效。当然，各自有各自的作用，只是如果没有足够优秀的企业，对科技人才的吸引肯定是不可持续的。</p>
 <p>很多人可能会说，华为倒了，还有其他企业呢，请注意，这些科技类人才，不是简单的选择华为的高薪，很多是基于华为的国际化市场和研发体系需求，这种需求给一个人的眼界和发展空间提供了不一样的机会。</p>
@@ -90,7 +187,7 @@ function activateLightMode(){
 <p>大家应该还记得中兴通讯吧，被美国打压之后（2018年4月16日，美国商务部宣布立即重启对中兴通讯的制裁禁令，中兴通讯将被禁止以任何形式从美国进口商品），结果就是，2018年第二季度遭遇了58％的损失，当时中兴通讯的工厂已经停产，随后的第三季度下降了14％，第四季度下降了17％。</p>
 <p>在这样的背景下，中兴吸引科技人才的能力以及对科研的投入立马遭到削减，这种损失不仅仅是企业层面的，还是国家层面，是一种战略性损失。</p>
 <p>如果中兴事件不足以引起重视，此时美国对华为的猎杀，必须要重视了，如果这还不足以引起各个方面的及时应对，那中国失去的就不是一个华为，而是整个建立起来的高科技人才市场化产业链条的崩溃（我并非危言耸听），以及难以挽回的中国企业国际声誉损失，因为这意味着华为无法给全球170多个国家提供稳定的产品和技术服务保障，你让人家怎么看中国企业？</p>
-<p><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/geekdanny/images/master/blog/qlGxpJ.png" data-fancybox="group" data-caption="qlGxpJ" class="fancybox"><img alt="qlGxpJ" title="qlGxpJ" data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/qlGxpJ.png" class="lazyload"></a></p>
+<p><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/qlGxpJ.png" alt="qlGxpJ"></p>
 <p>对于封杀华为，更大的战略威胁是什么呢，当然是遏制和降低中国在科技领域的全球化，永远把中国锁死在中低端加工领域，无法在国际市场获得更大利润，从而进入中等收入陷阱，彻底清除中国对美国各类霸权的战略挑战。</p>
 <h1 id="2"><a href="#2" class="headerlink" title="2"></a>2</h1><p>很多人可能又要问了，一个华为的问题，能上升到国运和“中等收入陷阱”等层面？那好，我们先来看看关于人均GDP1万美元的问题（中等收入阶段）。</p>
 <p>全球来看，目前人均GDP比中国高的只有约11亿人，而全球人口的数量是76亿。</p>
@@ -110,7 +207,7 @@ function activateLightMode(){
 <p>相比来说，土耳其的产业相对来说更丰富一些，比如Beko及Vestel都是欧洲知名的家用电子产品与电器制造商，土耳其的建筑承包行业也相当发达，目前也是中国在全球市场的竞争对手之一，另外船舶制造业也很有竞争力，军工方面有F16生产线等。</p>
 <p>但土耳其的问题在于，产业规模不够，进入世界500强的企业只有一家Beko的母公司考奇集团（KOC）。</p>
 <p>那我们再来看看韩国，是如何超越中等收入陷阱，把5000万人口带向发达经济体的。请看下图。</p>
-<p><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/geekdanny/images/master/blog/ZpkBAf.png" data-fancybox="group" data-caption="ZpkBAf" class="fancybox"><img alt="ZpkBAf" title="ZpkBAf" data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/ZpkBAf.png" class="lazyload"></a></p>
+<p><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/ZpkBAf.png" alt="ZpkBAf"></p>
 <p> 大家估计一下子就能看明白，韩国有16家企业进入了世界500强，在这些企业里面，我没找到一家纯粹的垄断性能源企业，也没有一家是纯粹的银行，而大部分是科技企业，以及重工业、汽车等制造业，还有三星等高科技企业，这些企业基本上都是靠真正的拼杀闯出来的（背后也离不开国家的支持）。 所以，我想说的是，如果中国想真正跨越中等收入陷阱，不做“八国联军”的垫脚石，被踩死在巴西、墨西哥，或者土耳其这个水平上，那就必须要有真正的，拼杀出来的科技类世界500强企业。</p>
 <h1 id="3"><a href="#3" class="headerlink" title="3"></a>3</h1><p>那我们再回过头来看看中国入围世界500强的企业。</p>
 <p>从去年的数据看，中国（含港台）有129家企业入围世界500强，历史上首次超过美国的121家，位列全球第一。</p>
@@ -147,28 +244,28 @@ function activateLightMode(){
 <h1 id="5"><a href="#5" class="headerlink" title="5"></a>5</h1><p>中国近十多年的发展，是比较快的，快到什么程度呢，全球几乎没有几个人能预测到。</p>
 <p>可能我这么说你还是会觉得怪怪的（又在吹了），那我给你举个简单的例子，比如2005年，中国领导人提出的目标是，到2020年，也就是到现在，中国人均GDP要突破3000美元。</p>
 <p>那当时中国的人均GDP是多少呢？只有1700美元。</p>
-<p><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/geekdanny/images/master/blog/tAyDiy.png" data-fancybox="group" data-caption="tAyDiy" class="fancybox"><img alt="tAyDiy" title="tAyDiy" data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/tAyDiy.png" class="lazyload"></a></p>
+<p><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/tAyDiy.png" alt="tAyDiy"></p>
 <p> 也就是说，在过去15年里，中国的发展计划是，将人均GDP推升76%，结果呢，中国人均GDP涨了接近6倍，因为去年中国人均GDP已经突破了1万美元。</p>
 <p>与此同时，中国也成长起来了一批国际化的公司，比如最典型的就是华为，所以华为的发展，其实跟中国经济的发展一样，是所有对手始料未及的。</p>
 <p>当下美国封杀华为，其实跟遏制中国经济崛起是同一个目的之下的不同执行层面，逻辑上是一致的。只不过中国由于体量有点大，影响力也都起来了，所以美国要想把中国打入“中等收入陷阱”需要作出的努力可能会更大，因此现在大家看到的就是，由于用力过猛，美国的动作有点“变形”，而在遏制其他相对体量较小的挑战者方面，恐怕一次金融危机就足够了，甚至没人能看出来。</p>
 <p>大家再想想，中国这种速度的发展，如果连我们自己都没有想到，一直看不起我们的竞争对手会想到吗？当然，可能有那么一两个疯狂的预言家会想到（比如很多人动不动就引用所谓拿破仑说的“中国是一头沉睡的雄狮,一旦醒来就会震惊世界”这类言论），但这并不会成为对手关注我们的依据。</p>
 <p>所以，过去十多年里，美国在对待中国的问题上，其实还处在战略观察阶段，美国知道中国未来肯定会成为一个强国，但会不会成为美国霸权的挑战者，还不好说，中国崛起的时间也可能会比较长，美国对中国进入中等收入阶段的预估是2030年（晚了十年），而且也需要诸多的条件来助力，中国现在还难以满足这些条件（比如好的“制度”等），这样的话，美国有足够的时间去中东搞事情的。 然而，转眼间，中国的人均GDP已经达到了1万美元，成为全球第二大经济体。更重要的是，中国经济的发展，并不是在美国所期望的制度下完成的。</p>
 <p>当然，光拿出人均GDP数据，对于很多人来说，可能并不觉得有什么政治意义。那我要告诉你的是，当上个世纪80年代初，日本人均GDP达到1万美元的时候，美国发起了对日本企业的疯狂打压，包括对丰田汽车等的各种绞杀。同时美国出现了反日情绪。</p>
-<p><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/geekdanny/images/master/blog/9Elmg2.png" data-fancybox="group" data-caption="9Elmg2" class="fancybox"><img alt="9Elmg2" title="9Elmg2" data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/9Elmg2.png" class="lazyload"></a></p>
+<p><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/9Elmg2.png" alt="9Elmg2"></p>
 <p>到了1985年（日本人均GDP是11500美元，跟今天的中国基本一样），美国直接强制日本签署“广场协议”，要求日元升值，来打压日本的出口，刺激日本对美国的投资，结果日元在而后的六年里，对美元升值了超过4倍，日本人到处买美元，然后疯狂的去美国炒楼炒股，把此前多年赚来的钱都投向了美国，一时间美国人感叹，日本要买下整个美国了。</p>
-<p>结果就是，在高潮之后，美国迎来了新一轮的发展期，而日本很快陷入了“失去的二十年”。当然，关于这一点，有很多争论，到底日本有没有失去二十年，失去二十年的原因是什么，众说纷纭，但有一点是肯定的，看一下日本房地产和股市的走势，就知道失去的二十年并不是危言耸听。 <a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/geekdanny/images/master/blog/yWcSoD.png" data-fancybox="group" data-caption="yWcSoD" class="fancybox"><img alt="yWcSoD" title="yWcSoD" data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/yWcSoD.png" class="lazyload"></a></p>
+<p>结果就是，在高潮之后，美国迎来了新一轮的发展期，而日本很快陷入了“失去的二十年”。当然，关于这一点，有很多争论，到底日本有没有失去二十年，失去二十年的原因是什么，众说纷纭，但有一点是肯定的，看一下日本房地产和股市的走势，就知道失去的二十年并不是危言耸听。 <img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/yWcSoD.png" alt="yWcSoD"></p>
 <h2 id="日本失去的二十年"><a href="#日本失去的二十年" class="headerlink" title="日本失去的二十年"></a>日本失去的二十年</h2><p>到了上个世纪九十年代末，亚洲的韩国、马来西亚、泰国等国家，陆续奔向人均GDP1万美元的时代。比如到了1997年，韩国人均GDP1.5万美元，马来西亚人均GDP1.2万美元，泰国人均GDP也超过了7000美元。于是，1997年亚洲金融风暴来了。</p>
 <p>那1997年亚洲金融风暴的后果是什么呢，美元迅速从亚洲市场逃离，高速发展的东南亚经济突然陷入崩溃边缘，直到现在，泰国和马来西亚的人均GDP，还处在跟1997年一样的水平上，失去了不止二十年。</p>
 <h1 id="6"><a href="#6" class="headerlink" title="6"></a>6</h1><p>那美国具体得到了什么呢？</p>
 <p>大家可以去看看美国股市的走势，从跟日本签署《广场协议》，到1997年亚洲金融危机，美国股市一直在上涨，尤其是在1997年亚洲金融危机之后，美股由于涌入的资金巨大，诸多高科技企业获得了前所未有的估值，研发投入大幅增长，以至于搞出了纳斯达克世纪泡沫，酝酿出来了谷歌、微软、亚马逊等等巨型公司，至今称霸全球。</p>
-<p><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/geekdanny/images/master/blog/iazUDR.png" data-fancybox="group" data-caption="iazUDR" class="fancybox"><img alt="iazUDR" title="iazUDR" data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/iazUDR.png" class="lazyload"></a></p>
+<p><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/iazUDR.png" alt="iazUDR"></p>
 <p>大危机与美国股市走势</p>
 <p>很多人可能不太理解，为什么1985开始的日元升值，和1997年东南亚开启的本币贬值，都使得美元涌入美国呢？原因很简单，在货币这个问题上，其实大家担心的不是升值或贬值，而是波动。</p>
 <p>只要一个国家的货币，出现巨大的波动，无论是升值还是贬值，都会给民众带来不安全感，出现“处置”冲动。这就好比一个人，有时候对你特别好，有时候威胁要杀了你，你的最好选择是，远离他。</p>
 <p>如果你去看美国股市走势，在1985年没有签署《广场协议》之前，道琼斯工业指数长期徘徊在1200点左右，协议签署后由于日本市场资金的涌入，该指数迅速上涨，以至于涨得太快了，发生了1987年的股灾，但很快恢复。再加上1997年亚洲金融风暴导致的韩国等东南亚资金的涌入，道琼斯指数从1985年的1200点，涨到了2000年的接近12000点，涨了10倍。</p>
 <p>2000年之后的美国股市，基本没有什么大的起色，2000年到2007年，道琼斯工业指数仅仅从接近12000点，涨到了14000点，七年里只涨了不到20%。</p>
 <p>最近十年，美股也出现了历史上最长的牛市，但大家不知道的是，这一轮美股的上涨，另一个重要的原因是，2010年欧债危机爆发，欧洲资金向美国涌入，再加上2014年至2016年，中国尝试放开外汇管制，人民币迅速贬值，中国外汇储备两年流失超过1万亿美元，把美国股市推向了新高潮。道琼斯指数从2010年的不到1万点，涨到了今年年初的接近3万点。</p>
-<p><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/geekdanny/images/master/blog/BQ1y3y.png" data-fancybox="group" data-caption="BQ1y3y" class="fancybox"><img alt="BQ1y3y" title="BQ1y3y" data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/BQ1y3y.png" class="lazyload"></a></p>
+<p><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/BQ1y3y.png" alt="BQ1y3y"></p>
 <p>欧元和人民币两次大贬值后美股走势 很多人可能又要反驳了，这种逻辑分析属于阴谋论，美国股市的上涨，并不是因为其他国家的危机，而是美国有全球最好的企业。</p>
 <p>这一点我也是承认的，但问题的关键点不在这里，问题的关键点在于，为什么只有美国可以缔造出那么多全球企业呢？当风险来临时，美元反而不跌反涨呢？难道欧洲国家的制度，也都不如美国？</p>
 <p>我的观点是，自二战后，欧洲传统强国被削弱，亚洲更惨，人类逐步进入了新的起点，可以说世界被再一次推平了，成了一张白纸，而这个时候唯一的获胜者，是美国。世界开始任由美国“设计”，而美国所执行的是平台战略，只要参与到这个平台里面，就成了美国的一颗棋子，未来只能任其调拨，来配合美国的本土利益。</p>
@@ -194,7 +291,7 @@ function activateLightMode(){
 <p>很多人可能又要说了，国际主流依然是谷歌的GMS系统，HMS想替代谈何容易，这一点我不否认，但我会告诉你另一个重大机会。</p>
 <p>你知道红军长征是如何在蒋介石几十万大军眼皮底下活下来的吗？其中一个原因是，四川、贵州、云南等各军阀与蒋介石之间，本身就存在着巨大的底层矛盾。</p>
 <h1 id="8"><a href="#8" class="headerlink" title="8"></a>8</h1><p>大家可以去欧洲市场看看，欧洲市场现在销售额前五的手机，三星排第一，华为排第二，苹果只是第三。而自从华为手机销量下降以来，小米和OPPO在欧洲的销量大增。</p>
-<p><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/geekdanny/images/master/blog/Bklx9e.png" data-fancybox="group" data-caption="Bklx9e" class="fancybox"><img alt="Bklx9e" title="Bklx9e" data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/Bklx9e.png" class="lazyload"></a></p>
+<p><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/Bklx9e.png" alt="Bklx9e"></p>
 <p>我跟大家说这个，并不是说华为丢失的份额，被小米等中国手机厂商给补回来了那么简单。大家有没有想过，为什么欧洲人其实也很愿意选择苹果之外的手机呢？</p>
 <p>这其实不是简单的性价比的问题，而是欧洲目前面临的情况跟中国类似。大家知道英国和美国正在举行自由贸易谈判，两国的重大分歧在于，英国要向美国互联网巨头征收数字税的问题。</p>
 <p>其实法国和德国也是一样的，美国的互联网科技公司，用平台和系统，一样绑架了整个欧洲的互联网科技领域。从电脑、手机的操作系统，到聊天、社交等等软件工具，全部被美国的科技巨头垄断，欧洲非常希望有第二种选择，这样就可以留有一定的后路，但美国似乎不会允许平台级别的第二种选择出现在欧洲。</p>
@@ -204,11 +301,11 @@ function activateLightMode(){
 <p>这个时候华为是很无助的，如果微信、新浪微博、优酷等等，能够在欧洲占有一席之地，其实华为要推HMS系统就没那么难了。</p>
 <p>所以华为现在是孤军奋战。也就是说，华为的HMS要获得些许成功，还需要将全球数百万家APP运维企业纳入生态。这是一个极其漫长的过程。</p>
 <p>其实美国不仅在封杀华为，还在企图鼓动各市场封杀中国的APP，包括抖音海外版TikTok，理由如出一辙，认为TikTok是国家威胁。</p>
-<p><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/geekdanny/images/master/blog/a99CAx.png" data-fancybox="group" data-caption="a99CAx" class="fancybox"><img alt="a99CAx" title="a99CAx" data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/a99CAx.png" class="lazyload"></a></p>
+<p><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/a99CAx.png" alt="a99CAx"></p>
 <p>据Sensor Tower发布的报告称，TikTok全球下载量超过 7 亿，是 2019 年下载量第二大的应用。这意味着TikTok击败了Facebook((下载量不到 7 亿))和Facebook Messenger (下载量略超过 7 亿)。 但我们再来看看欧洲，TikTok已经在德国取得成功，德国网红、明星、足球俱乐部等等都建立了TikTok账号和各类跟TikTok的合作。法国数十家媒体在TikTok建了账号，有法国女孩在TikTok的粉丝超过2000万。上周，字节跳动宣布将在英国伦敦设立TikTok欧洲业务中心。</p>
 <p>那为什么欧洲在对待中国高科技和互联企业方面，跟美国有如此之大的反差呢？</p>
 <p>大家还记得任正非有一次在接受采访时，被拍到在办公桌上有本《美国陷阱》吗？里面就是讲美国是如何肢解掉法国电信巨头阿尔斯通公司的。</p>
-<p><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/geekdanny/images/master/blog/M0Zz8h.png" data-fancybox="group" data-caption="M0Zz8h" class="fancybox"><img alt="M0Zz8h" title="M0Zz8h" data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/M0Zz8h.png" class="lazyload"></a></p>
+<p><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/M0Zz8h.png" alt="M0Zz8h"></p>
 <p>​                                                                                                任正非办公桌</p>
 <p>德国也非常清楚，美国是如何对待德国的汽车企业，以及德意志银行的。欧洲各国也都非常清楚，当年为什么要几个欧洲国家联合起来成立空客，来应对美国对欧洲飞机企业的打击的。</p>
 <p>所以，欧洲也非常清楚美国目前打压中国企业的真正战略意图，所以，按照我的推测，只要中国等国家能够提供新的可用系统和平台，以及各类产品，可以满足欧洲要求的话，欧洲其实从潜意识里，是愿意有多个选择存在的，并支持美国以外的系统平台或产品的。</p>
@@ -248,27 +345,53 @@ function activateLightMode(){
 <p>前不久，英国前首相布莱尔（典型西方价值观捍卫者）罕见的对中国做了一下评论，一方面布莱尔承认全球已经离不开中国，承认中国已经拥有很大的实力，但同时布莱尔指出，现在全球担心的是，中国会如何使用这种力量。</p>
 <p>那中国是如何回应的呢？</p>
 <p>而后的中央政治局常委会，明确指出，中国要发挥新型举国体制优势，加强科技创新和技术攻关，强化关键环节、关键领域、关键产品保障能力。</p>
-<p><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/geekdanny/images/master/blog/Voimdq.png" data-fancybox="group" data-caption="Voimdq" class="fancybox"><img alt="Voimdq" title="Voimdq" data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/Voimdq.png" class="lazyload"></a></p>
+<p><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/Voimdq.png" alt="Voimdq"></p>
 <p>我想，中国新型的举国体制，也就是对自身力量的运用，不仅要体现在抗击疫情，以及攻克关键领域技术难题上，还要用在保卫改革开放三十年的发展成果上。</p>
-</body></html></div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Danny Song</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://broadgeek.com/2020/05/28/bda3/">https://broadgeek.com/2020/05/28/bda3/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://broadgeek.com">极客丹尼</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%8A%AF%E7%89%87/">芯片    </a><a class="post-meta__tags" href="/tags/%E5%8D%8E%E4%B8%BA/">华为    </a></div><div class="post_share"><div class="social-share" data-image="https://raw.githubusercontent.com/geekdanny/images/master/blog/cORXK2.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><a class="reward-button button--primary button--animated"> <i class="fa fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="lazyload post-qr-code__img" src="https://raw.githubusercontent.com/geekdanny/images/master/wechat.jpg" alt="微信"><div class="post-qr-code__desc">微信</div></li><li class="reward-item"><img class="lazyload post-qr-code__img" src="https://raw.githubusercontent.com/geekdanny/images/master/alipay.jpg" alt="支付寶"><div class="post-qr-code__desc">支付寶</div></li></ul></div></a></div><nav class="pagination_post" id="pagination"><div class="prev-post pull_left"><a href="/2020/06/10/8d33/"><img class="prev_cover lazyload" data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/Ucf7lZ.png" onerror="onerror=null;src='/img/404.jpg'"><div class="label">上一篇</div><div class="prev_info"><span>GPU Mali</span></div></a></div><div class="next-post pull_right"><a href="/2020/05/25/3cd2/"><img class="next_cover lazyload" data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/p3xogJ.png" onerror="onerror=null;src='/img/404.jpg'"><div class="label">下一篇</div><div class="next_info"><span>Object-Relational Impedance Mismatch</span></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fa fa-fw fa-thumbs-up" aria-hidden="true"></i><span> 相关推荐</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/2020/05/23/e277/" title="2020 中美爆发芯片战争"><img class="relatedPosts_cover lazyload"data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/kMSMLs.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2021-01-12</div><div class="relatedPosts_title">2020 中美爆发芯片战争</div></div></a></div><div class="relatedPosts_item"><a href="/2020/05/17/a204/" title="中芯国际获国家200亿注资，拟取代台积电曲线救华为"><img class="relatedPosts_cover lazyload"data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/30GWcf.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2021-01-12</div><div class="relatedPosts_title">中芯国际获国家200亿注资，拟取代台积电曲线救华为</div></div></a></div><div class="relatedPosts_item"><a href="/2020/05/17/7b8a/" title="美国封杀华为“断芯”升级 中国或砍苹果出气"><img class="relatedPosts_cover lazyload"data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/YqpgBI.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2021-01-12</div><div class="relatedPosts_title">美国封杀华为“断芯”升级 中国或砍苹果出气</div></div></a></div><div class="relatedPosts_item"><a href="/2020/05/17/2bbd/" title="美方完美封杀华为 特朗普打响中美贸易战2.0"><img class="relatedPosts_cover lazyload"data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/9iVdMh.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2021-01-12</div><div class="relatedPosts_title">美方完美封杀华为 特朗普打响中美贸易战2.0</div></div></a></div><div class="relatedPosts_item"><a href="/2020/05/17/bbe/" title="详解华为正在开发的操作系统"><img class="relatedPosts_cover lazyload"data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/eqOGjt.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2021-01-12</div><div class="relatedPosts_title">详解华为正在开发的操作系统</div></div></a></div><div class="relatedPosts_item"><a href="/2020/05/16/f2b1/" title="中国人的“芯病”何去何从"><img class="relatedPosts_cover lazyload"data-src="https://raw.githubusercontent.com/geekdanny/images/master/blog/Y8Rzld.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2021-01-12</div><div class="relatedPosts_title">中国人的“芯病”何去何从</div></div></a></div></div><div class="clear_both"></div></div><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i><span> 评论</span></div><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var notify = true == true ? true : false;
-var verify = false == true ? true : false;
-var GUEST_INFO = ['nick','mail','link'];
-var guest_info = 'nick,mail,link'.split(',').filter(function(item){
-  return GUEST_INFO.indexOf(item) > -1
-});
-guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Danny Song</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://broadgeek.com/2020/05/28/bda3/">https://broadgeek.com/2020/05/28/bda3/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://broadgeek.com" target="_blank">极客丹尼</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%8A%AF%E7%89%87/">芯片</a><a class="post-meta__tags" href="/tags/%E5%8D%8E%E4%B8%BA/">华为</a></div><div class="post_share"><div class="social-share" data-image="https://raw.githubusercontent.com/geekdanny/images/master/blog/cORXK2.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://raw.githubusercontent.com/geekdanny/images/master/wechat.jpg" target="_blank"><img class="post-qr-code-img" src="https://raw.githubusercontent.com/geekdanny/images/master/wechat.jpg" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://raw.githubusercontent.com/geekdanny/images/master/alipay.jpg" target="_blank"><img class="post-qr-code-img" src="https://raw.githubusercontent.com/geekdanny/images/master/alipay.jpg" alt="支付寶"/></a><div class="post-qr-code-desc">支付寶</div></li></ul></div></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2020/06/10/8d33/"><img class="prev-cover" src="https://raw.githubusercontent.com/geekdanny/images/master/blog/Ucf7lZ.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">GPU Mali</div></div></a></div><div class="next-post pull-right"><a href="/2020/05/25/3cd2/"><img class="next-cover" src="https://raw.githubusercontent.com/geekdanny/images/master/blog/p3xogJ.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Object-Relational Impedance Mismatch</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2020/05/23/e277/" title="2020 中美爆发芯片战争"><img class="cover" src="https://raw.githubusercontent.com/geekdanny/images/master/blog/kMSMLs.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-05-23</div><div class="title">2020 中美爆发芯片战争</div></div></a></div><div><a href="/2020/05/17/a204/" title="中芯国际获国家200亿注资，拟取代台积电曲线救华为"><img class="cover" src="https://raw.githubusercontent.com/geekdanny/images/master/blog/30GWcf.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-05-17</div><div class="title">中芯国际获国家200亿注资，拟取代台积电曲线救华为</div></div></a></div><div><a href="/2020/05/17/7b8a/" title="美国封杀华为“断芯”升级 中国或砍苹果出气"><img class="cover" src="https://raw.githubusercontent.com/geekdanny/images/master/blog/YqpgBI.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-05-17</div><div class="title">美国封杀华为“断芯”升级 中国或砍苹果出气</div></div></a></div><div><a href="/2020/05/17/2bbd/" title="美方完美封杀华为 特朗普打响中美贸易战2.0"><img class="cover" src="https://raw.githubusercontent.com/geekdanny/images/master/blog/9iVdMh.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-05-17</div><div class="title">美方完美封杀华为 特朗普打响中美贸易战2.0</div></div></a></div><div><a href="/2020/05/17/bbe/" title="详解华为正在开发的操作系统"><img class="cover" src="https://raw.githubusercontent.com/geekdanny/images/master/blog/eqOGjt.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-05-17</div><div class="title">详解华为正在开发的操作系统</div></div></a></div><div><a href="/2020/05/16/f2b1/" title="中国人的“芯病”何去何从"><img class="cover" src="https://raw.githubusercontent.com/geekdanny/images/master/blog/Y8Rzld.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-05-16</div><div class="title">中国人的“芯病”何去何从</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="gitalk-container"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://raw.githubusercontent.com/geekdanny/images/master/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Danny Song</div><div class="author-info__description">白羊男子 一半明媚 一半忧伤</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">36</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">37</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">12</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/geekdanny"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/geekdanny" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:dhrsongcs@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">每天进步一点点</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A6%82%E6%9E%9C%E5%A4%B1%E5%8E%BB%E5%8D%8E%E4%B8%BA%EF%BC%8C%E4%B8%AD%E5%9B%BD%E4%BC%9A%E6%80%8E%E4%B9%88%E6%A0%B7-%E5%85%B3%E7%B3%BB%E5%88%B0%E4%B8%AD%E5%9B%BD%E5%9B%BD%E8%BF%90-%E7%BB%84%E5%9B%BE"><span class="toc-number">1.</span> <span class="toc-text">如果失去华为，中国会怎么样?关系到中国国运(组图)</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1"><span class="toc-number"></span> <span class="toc-text">1</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2"><span class="toc-number"></span> <span class="toc-text">2</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3"><span class="toc-number"></span> <span class="toc-text">3</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4"><span class="toc-number"></span> <span class="toc-text">4</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5"><span class="toc-number"></span> <span class="toc-text">5</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%97%A5%E6%9C%AC%E5%A4%B1%E5%8E%BB%E7%9A%84%E4%BA%8C%E5%8D%81%E5%B9%B4"><span class="toc-number">1.</span> <span class="toc-text">日本失去的二十年</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#6"><span class="toc-number"></span> <span class="toc-text">6</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#7"><span class="toc-number"></span> <span class="toc-text">7</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#8"><span class="toc-number"></span> <span class="toc-text">8</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#9"><span class="toc-number"></span> <span class="toc-text">9</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#10"><span class="toc-number"></span> <span class="toc-text">10</span></a></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/01/12/2236/" title="Setup OpenGL Development with Clion on MacOS"><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/qiyvUd.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Setup OpenGL Development with Clion on MacOS"/></a><div class="content"><a class="title" href="/2021/01/12/2236/" title="Setup OpenGL Development with Clion on MacOS">Setup OpenGL Development with Clion on MacOS</a><time datetime="2021-01-12T19:06:07.000Z" title="发表于 2021-01-12 11:06:07">2021-01-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/12/2270/" title="Setup Vulkan Development Environment with Clion on MacOS"><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/FtU9D7.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Setup Vulkan Development Environment with Clion on MacOS"/></a><div class="content"><a class="title" href="/2021/01/12/2270/" title="Setup Vulkan Development Environment with Clion on MacOS">Setup Vulkan Development Environment with Clion on MacOS</a><time datetime="2021-01-12T19:06:07.000Z" title="发表于 2021-01-12 11:06:07">2021-01-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/11/b21/" title="Vulkan 导读3: 分配Image资源和创建Swapchain"><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/image-20210111155306450.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Vulkan 导读3: 分配Image资源和创建Swapchain"/></a><div class="content"><a class="title" href="/2021/01/11/b21/" title="Vulkan 导读3: 分配Image资源和创建Swapchain">Vulkan 导读3: 分配Image资源和创建Swapchain</a><time datetime="2021-01-11T23:18:14.000Z" title="发表于 2021-01-11 15:18:14">2021-01-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/11/7c7/" title="Vulkan 导读2: Command Buffer 和内存管理"><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/NFrL2w.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Vulkan 导读2: Command Buffer 和内存管理"/></a><div class="content"><a class="title" href="/2021/01/11/7c7/" title="Vulkan 导读2: Command Buffer 和内存管理">Vulkan 导读2: Command Buffer 和内存管理</a><time datetime="2021-01-11T22:26:51.000Z" title="发表于 2021-01-11 14:26:51">2021-01-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/11/59e9/" title="Vulkan 导读1: 下一代图形API"><img src="https://raw.githubusercontent.com/geekdanny/images/master/blog/640.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Vulkan 导读1: 下一代图形API"/></a><div class="content"><a class="title" href="/2021/01/11/59e9/" title="Vulkan 导读1: 下一代图形API">Vulkan 导读1: 下一代图形API</a><time datetime="2021-01-11T22:06:46.000Z" title="发表于 2021-01-11 14:06:46">2021-01-11</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2021 By Danny Song</div><div class="footer_custom_text">回忆是一种重逢 遗忘是一种自由</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function addGitalkSource () {
+  const ele = document.createElement('link')
+  ele.rel = 'stylesheet'
+  ele.href= 'https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css'
+  document.getElementsByTagName('head')[0].appendChild(ele)
+}
 
-window.valine = new Valine({
-  el:'#vcomment',
-  notify:notify,
-  verify:verify,
-  appId:'k2Wixoxbl6pkWGvMvGiokWTD-MdYXbMMI',
-  appKey:'oGRBxV8zDB1hP72TQ6EoYj81',
-  placeholder:'Please leave your footprints',
-  avatar:'monsterid',
-  guest_info:guest_info,
-  pageSize:'10',
-  lang:'zh-cn',
-  recordIP: true
-});</script></div></div></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2021 By Danny Song</div><div class="footer_custom_text">回忆是一种重逢 遗忘是一种自由</div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-book" id="readmode" title="阅读模式"></i><i class="fa fa-plus" id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="简繁转换" target="_self">简</a><i class="darkmode fa fa-moon-o" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><a id="to_comment" href="#post-comment" title="直达评论"><i class="scroll_to_comment fa fa-comments">  </i></a><i class="fa fa-list-ul close" id="mobile-toc-button" title="目录" aria-hidden="true"></i><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script id="canvas_nest" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/canvas-nest.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async=""></script><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章"></div></div></div><hr><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a target="_blank" rel="noopener" href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a>
- <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/shizuku.model.json"},"display":{"position":"left","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":0.9}});</script></body></html>
+function loadGitalk () {
+  function initGitalk () {
+    var gitalk = new Gitalk({
+      clientID: '585d04fce7b19ccd8d83',
+      clientSecret: '20022705d0a4bf39063838ebd62bde18f38efe4e',
+      repo: 'geekdanny.github.io',
+      owner: 'geekdanny',
+      admin: ['geekdanny'],
+      id: 'dd169ce7b82a37384803cd4897ee3afa',
+      language: 'en',
+      perPage: 10,
+      distractionFreeMode: false,
+      pagerDirection: 'last',
+      createIssueManually: false,
+      updateCountCallback: commentCount
+    })
+    gitalk.render('gitalk-container')
+  }
+
+  if (typeof Gitalk === 'function') initGitalk()
+  else {
+    addGitalkSource()
+    getScript('https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js').then(initGitalk)
+  }
+}
+
+function commentCount(n){
+  let isCommentCount = document.querySelector('#post-meta .gitalk-comment-count')
+  if (isCommentCount) {
+    isCommentCount.innerHTML= n
+  }
+}
+
+if ('Gitalk' === 'Gitalk' || !false) {
+  if (false) btf.loadComment(document.getElementById('gitalk-container'), loadGitalk)
+  else loadGitalk()
+} else {
+  function loadOtherComment () {
+    loadGitalk()
+  }
+}</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></div><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/shizuku.model.json"},"display":{"position":"left","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":0.9}});</script></body></html>

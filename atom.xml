@@ -29,7 +29,7 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+          &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
         
       
     
@@ -56,7 +56,7 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+          &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;学习图形学编程的时候，其实在MacOS的编程环境默认都是用Xcode，Windows又经常用Visual
         
       
     
@@ -83,7 +83,7 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;导读2学习了CB和内存管理。这一节对《Learning Vulkan》的第6章的导读。特介绍了两个主要概念，一个是image resources，另一个是swapchain 和 depth
+          &lt;p&gt;导读2学习了CB和内存管理。这一节对《Learning Vulkan》的第6章的导读。特介绍了两个主要概念，一个是image resources，另一个是swapchain 和 depth
         
       
     
@@ -110,8 +110,8 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;导读2 主要是讲解第五章，之所以跳过2，3，4章是因为这三章关键概念很少，更多的是围绕Vulkan初始化阶段的准备工作。第五章重点讲解了CB和内存的概念，值得对其细节进行整理。&lt;/p&gt;
-&lt;p&gt;一个command
+          &lt;p&gt;导读2 主要是讲解第五章，之所以跳过2，3，4章是因为这三章关键概念很少，更多的是围绕Vulkan初始化阶段的准备工作。第五章重点讲解了CB和内存的概念，值得对其细节进行整理。&lt;/p&gt;
+&lt;p&gt;一个command buffer就是a collection of
         
       
     
@@ -138,7 +138,7 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;写在之前：此篇为Danny针对《Learning
+          &lt;p&gt;写在之前：此篇为Danny针对《Learning
         
       
     
@@ -165,7 +165,7 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;&lt;p&gt;C++提供函数模板（function
+          &lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;&lt;p&gt;C++提供函数模板（function
         
       
     
@@ -188,7 +188,7 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;本文参考自：&lt;a
+          &lt;p&gt;本文参考自：&lt;a
         
       
     
@@ -215,7 +215,7 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;基本区别&quot;&gt;&lt;a href=&quot;#基本区别&quot; class=&quot;headerlink&quot; title=&quot;基本区别&quot;&gt;&lt;/a&gt;基本区别&lt;/h1&gt;&lt;p&gt;struct
+          &lt;h1 id=&quot;基本区别&quot;&gt;&lt;a href=&quot;#基本区别&quot; class=&quot;headerlink&quot; title=&quot;基本区别&quot;&gt;&lt;/a&gt;基本区别&lt;/h1&gt;&lt;p&gt;struct 由c语言引入。在c语言中，是定义结构化数据的标准选择。其主观上的定义可参考：&lt;a
         
       
     
@@ -244,7 +244,7 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;Open-Closed-Principle-（开闭原则）&quot;&gt;&lt;a href=&quot;#Open-Closed-Principle-（开闭原则）&quot; class=&quot;headerlink&quot;
+          &lt;h1 id=&quot;Open-Closed-Principle-（开闭原则）&quot;&gt;&lt;a href=&quot;#Open-Closed-Principle-（开闭原则）&quot; class=&quot;headerlink&quot; title=&quot;Open-Closed Principle
         
       
     
@@ -267,7 +267,7 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;Data-Type-Encapulation&quot;&gt;&lt;a href=&quot;#Data-Type-Encapulation&quot; class=&quot;headerlink&quot; title=&quot;Data Type
+          &lt;h1 id=&quot;Data-Type-Encapulation&quot;&gt;&lt;a href=&quot;#Data-Type-Encapulation&quot; class=&quot;headerlink&quot; title=&quot;Data Type Encapulation&quot;&gt;&lt;/a&gt;Data Type
         
       
     
@@ -290,7 +290,8 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot;
+          &lt;h1 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Design patters are
         
       
     
@@ -319,8 +320,8 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;基础篇&quot;&gt;&lt;a href=&quot;#基础篇&quot; class=&quot;headerlink&quot; title=&quot;基础篇&quot;&gt;&lt;/a&gt;基础篇&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input disabled type=&quot;checkbox&quot;&gt;
+          &lt;h1 id=&quot;基础篇&quot;&gt;&lt;a href=&quot;#基础篇&quot; class=&quot;headerlink&quot; title=&quot;基础篇&quot;&gt;&lt;/a&gt;基础篇&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&gt; &lt;a
         
       
     
@@ -355,7 +356,7 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;回顾Arm 推出了 新的 Cortex-A77 CPU微架构， 但更重要的 推出 了新的 Valhall GPU 架构和新的 Mali-G77 GPU 。 Bifrost 架构 推出
+          &lt;p&gt;回顾Arm 推出了 新的 Cortex-A77 CPU微架构， 但更重要的 推出 了新的 Valhall GPU 架构和新的 Mali-G77 GPU 。 Bifrost 架构 推出 已有三年，随着行业和工作负载的不断发展， Arm 的 GPU
         
       
     
@@ -382,7 +383,7 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&quot;GPU-进化&quot;&gt;&lt;a href=&quot;#GPU-进化&quot; class=&quot;headerlink&quot; title=&quot;GPU 进化&quot;&gt;&lt;/a&gt;GPU 进化&lt;/h2&gt;&lt;p&gt;GPU 方面，最新发布 Mali-G77 GPU
+          &lt;h2 id=&quot;GPU-进化&quot;&gt;&lt;a href=&quot;#GPU-进化&quot; class=&quot;headerlink&quot; title=&quot;GPU 进化&quot;&gt;&lt;/a&gt;GPU 进化&lt;/h2&gt;&lt;p&gt;GPU 方面，最新发布 Mali-G77 GPU 采用了最新的 Valhall 架构，此时距离上一代
         
       
     
@@ -409,7 +410,7 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&quot;如果失去华为，中国会怎么样-关系到中国国运-组图&quot;&gt;&lt;a href=&quot;#如果失去华为，中国会怎么样-关系到中国国运-组图&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;如果失去华为，中国会怎么样-关系到中国国运-组图&quot;&gt;&lt;a href=&quot;#如果失去华为，中国会怎么样-关系到中国国运-组图&quot; class=&quot;headerlink&quot;
         
       
     
@@ -438,7 +439,7 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://www.agiledata.org/essays/objectOrientation101.html&quot;&gt;Object-oriented technology&lt;/a&gt; supports the
+          &lt;p&gt;&lt;a href=&quot;http://www.agiledata.org/essays/objectOrientation101.html&quot;&gt;Object-oriented technology&lt;/a&gt; supports the building of applications
         
       
     
@@ -467,7 +468,7 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&quot;设置-Mac-OS-编译环境&quot;&gt;&lt;a href=&quot;#设置-Mac-OS-编译环境&quot; class=&quot;headerlink&quot; title=&quot;设置 Mac OS 编译环境&quot;&gt;&lt;/a&gt;设置 Mac OS
+          &lt;h2 id=&quot;设置-Mac-OS-编译环境&quot;&gt;&lt;a href=&quot;#设置-Mac-OS-编译环境&quot; class=&quot;headerlink&quot; title=&quot;设置 Mac OS 编译环境&quot;&gt;&lt;/a&gt;设置 Mac OS 编译环境&lt;/h2&gt;&lt;p&gt;在默认安装过程中，macOS
         
       
     
@@ -496,9 +497,9 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+          &lt;blockquote&gt;
 &lt;p&gt;编者按：&lt;/p&gt;
-&lt;p&gt;180年前发生的那场鸦片战争，英国不道德地利用其军事优势来解决当时的贸易争端，打开了大清的国门。在鸦片战争近两百年后，西方文明现在又不得不准备与中国打一场「芯片战争」。最有讽
+&lt;p&gt;180年前发生的那场鸦片战争，英国不道德地利用其军事优势来解决当时的贸易争端，打开了大清的国门。在鸦片战争近两百年后，西方文明现在又不得不准备与中国打一场「芯片战争」。最有讽刺意义的就是，「芯片战争」要解决的实质问题，和鸦片
         
       
     
@@ -529,7 +530,8 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://raw.githubusercontent.com/geekdanny/images/master/blog/06xuWt.png&quot; data-fancybox=&quot;group&quot;
+          &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/geekdanny/images/master/blog/06xuWt.png&quot; alt=&quot;06xuWt&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Objective&quot;&gt;&lt;a
         
       
     
@@ -558,10 +560,11 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+          &lt;blockquote&gt;
 &lt;p&gt;转文学城&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;读者按：
+&lt;p&gt;读者按： 最近开始研究华为的系统，读了很多文章和代码，计划庖丁解牛的研究华为面临的问题。只有清晰的了解问题后，才可以对症下药。这篇文章有点意思，记录一下以做参考。&lt;/p&gt;
+&lt;p&gt;&lt;img
         
       
     
