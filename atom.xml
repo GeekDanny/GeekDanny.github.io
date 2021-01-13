@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://broadgeek.com/"/>
-  <updated>2021-01-12T23:12:47.367Z</updated>
+  <updated>2021-01-12T19:06:07.000Z</updated>
   <id>https://broadgeek.com/</id>
   
   <author>
@@ -17,38 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Setup Vulkan Development Environment with Clion on MacOS</title>
-    <link href="https://broadgeek.com/2021/01/12/2270/"/>
-    <id>https://broadgeek.com/2021/01/12/2270/</id>
-    <published>2021-01-12T19:06:07.000Z</published>
-    <updated>2021-01-12T23:12:47.367Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="GPU" scheme="https://broadgeek.com/categories/GPU/"/>
-    
-    
-      <category term="Vulkan" scheme="https://broadgeek.com/tags/Vulkan/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Setup OpenGL Development with Clion on MacOS</title>
     <link href="https://broadgeek.com/2021/01/12/2236/"/>
     <id>https://broadgeek.com/2021/01/12/2236/</id>
     <published>2021-01-12T19:06:07.000Z</published>
-    <updated>2021-01-12T23:47:30.224Z</updated>
+    <updated>2021-01-12T19:06:07.000Z</updated>
     
     <summary type="html">
     
@@ -71,11 +44,38 @@
   </entry>
   
   <entry>
+    <title>Setup Vulkan Development Environment with Clion on MacOS</title>
+    <link href="https://broadgeek.com/2021/01/12/2270/"/>
+    <id>https://broadgeek.com/2021/01/12/2270/</id>
+    <published>2021-01-12T19:06:07.000Z</published>
+    <updated>2021-01-12T19:06:07.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="GPU" scheme="https://broadgeek.com/categories/GPU/"/>
+    
+    
+      <category term="Vulkan" scheme="https://broadgeek.com/tags/Vulkan/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Vulkan 导读3: 分配Image资源和创建Swapchain</title>
     <link href="https://broadgeek.com/2021/01/11/b21/"/>
     <id>https://broadgeek.com/2021/01/11/b21/</id>
     <published>2021-01-11T23:18:14.000Z</published>
-    <updated>2021-01-12T04:53:32.716Z</updated>
+    <updated>2021-01-11T23:18:14.000Z</updated>
     
     <summary type="html">
     
@@ -102,7 +102,7 @@
     <link href="https://broadgeek.com/2021/01/11/7c7/"/>
     <id>https://broadgeek.com/2021/01/11/7c7/</id>
     <published>2021-01-11T22:26:51.000Z</published>
-    <updated>2021-01-11T22:40:49.270Z</updated>
+    <updated>2021-01-11T22:26:51.000Z</updated>
     
     <summary type="html">
     
@@ -130,7 +130,7 @@
     <link href="https://broadgeek.com/2021/01/11/59e9/"/>
     <id>https://broadgeek.com/2021/01/11/59e9/</id>
     <published>2021-01-11T22:06:46.000Z</published>
-    <updated>2021-01-11T22:24:13.174Z</updated>
+    <updated>2021-01-11T22:06:46.000Z</updated>
     
     <summary type="html">
     
@@ -157,7 +157,7 @@
     <link href="https://broadgeek.com/2020/06/29/c305/"/>
     <id>https://broadgeek.com/2020/06/29/c305/</id>
     <published>2020-06-29T23:57:18.000Z</published>
-    <updated>2020-12-01T21:03:21.071Z</updated>
+    <updated>2020-06-29T23:57:18.000Z</updated>
     
     <summary type="html">
     
@@ -180,7 +180,7 @@
     <link href="https://broadgeek.com/2020/06/29/584/"/>
     <id>https://broadgeek.com/2020/06/29/584/</id>
     <published>2020-06-29T21:29:21.000Z</published>
-    <updated>2020-06-29T21:54:16.593Z</updated>
+    <updated>2020-06-29T21:29:21.000Z</updated>
     
     <summary type="html">
     
@@ -188,7 +188,7 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;本文参考自：&lt;a href=&quot;https://www.devbean.net/2014/02/cpp-create-object-on-heap-or-stack/&quot; target=&quot;_blank&quot;
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;本文参考自：&lt;a
         
       
     
@@ -207,7 +207,7 @@
     <link href="https://broadgeek.com/2020/06/29/52b1/"/>
     <id>https://broadgeek.com/2020/06/29/52b1/</id>
     <published>2020-06-29T18:39:35.000Z</published>
-    <updated>2020-06-29T21:54:16.596Z</updated>
+    <updated>2020-06-29T18:39:35.000Z</updated>
     
     <summary type="html">
     
@@ -236,7 +236,7 @@
     <link href="https://broadgeek.com/2020/06/27/6736/"/>
     <id>https://broadgeek.com/2020/06/27/6736/</id>
     <published>2020-06-27T16:21:52.000Z</published>
-    <updated>2020-06-29T21:54:16.595Z</updated>
+    <updated>2020-06-27T16:21:52.000Z</updated>
     
     <summary type="html">
     
@@ -259,7 +259,7 @@
     <link href="https://broadgeek.com/2020/06/22/5fe2/"/>
     <id>https://broadgeek.com/2020/06/22/5fe2/</id>
     <published>2020-06-22T20:40:58.000Z</published>
-    <updated>2020-06-27T03:48:19.113Z</updated>
+    <updated>2020-06-22T20:40:58.000Z</updated>
     
     <summary type="html">
     
@@ -282,7 +282,7 @@
     <link href="https://broadgeek.com/2020/06/21/ab5f/"/>
     <id>https://broadgeek.com/2020/06/21/ab5f/</id>
     <published>2020-06-21T19:52:27.000Z</published>
-    <updated>2020-06-27T16:50:36.613Z</updated>
+    <updated>2020-06-21T19:52:27.000Z</updated>
     
     <summary type="html">
     
@@ -311,7 +311,7 @@
     <link href="https://broadgeek.com/2020/06/21/276b/"/>
     <id>https://broadgeek.com/2020/06/21/276b/</id>
     <published>2020-06-21T16:18:52.000Z</published>
-    <updated>2020-06-27T03:47:53.458Z</updated>
+    <updated>2020-06-21T16:18:52.000Z</updated>
     
     <summary type="html">
     
@@ -347,7 +347,7 @@
     <link href="https://broadgeek.com/2020/06/10/dc8/"/>
     <id>https://broadgeek.com/2020/06/10/dc8/</id>
     <published>2020-06-10T20:53:57.000Z</published>
-    <updated>2020-06-21T19:49:59.442Z</updated>
+    <updated>2020-06-10T20:53:57.000Z</updated>
     
     <summary type="html">
     
@@ -374,7 +374,7 @@
     <link href="https://broadgeek.com/2020/06/10/8d33/"/>
     <id>https://broadgeek.com/2020/06/10/8d33/</id>
     <published>2020-06-10T20:20:26.000Z</published>
-    <updated>2020-06-10T21:01:51.102Z</updated>
+    <updated>2020-06-10T20:20:26.000Z</updated>
     
     <summary type="html">
     
@@ -401,7 +401,7 @@
     <link href="https://broadgeek.com/2020/05/28/bda3/"/>
     <id>https://broadgeek.com/2020/05/28/bda3/</id>
     <published>2020-05-28T16:46:59.000Z</published>
-    <updated>2020-05-28T21:29:00.617Z</updated>
+    <updated>2020-05-28T16:46:59.000Z</updated>
     
     <summary type="html">
     
@@ -430,7 +430,7 @@
     <link href="https://broadgeek.com/2020/05/25/3cd2/"/>
     <id>https://broadgeek.com/2020/05/25/3cd2/</id>
     <published>2020-05-26T02:44:23.000Z</published>
-    <updated>2020-05-26T02:56:41.254Z</updated>
+    <updated>2020-05-26T02:44:23.000Z</updated>
     
     <summary type="html">
     
@@ -438,7 +438,7 @@
       
         
         
-          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://www.agiledata.org/essays/objectOrientation101.html&quot; target=&quot;_blank&quot;
+          &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://www.agiledata.org/essays/objectOrientation101.html&quot;&gt;Object-oriented technology&lt;/a&gt; supports the
         
       
     
@@ -459,7 +459,7 @@
     <link href="https://broadgeek.com/2020/05/25/417d/"/>
     <id>https://broadgeek.com/2020/05/25/417d/</id>
     <published>2020-05-25T18:12:25.000Z</published>
-    <updated>2020-05-25T18:22:55.044Z</updated>
+    <updated>2020-05-25T18:12:25.000Z</updated>
     
     <summary type="html">
     
@@ -488,7 +488,7 @@
     <link href="https://broadgeek.com/2020/05/23/e277/"/>
     <id>https://broadgeek.com/2020/05/23/e277/</id>
     <published>2020-05-23T18:51:50.000Z</published>
-    <updated>2020-05-23T19:15:37.484Z</updated>
+    <updated>2020-05-23T18:51:50.000Z</updated>
     
     <summary type="html">
     
@@ -521,7 +521,7 @@
     <link href="https://broadgeek.com/2020/05/18/156f/"/>
     <id>https://broadgeek.com/2020/05/18/156f/</id>
     <published>2020-05-18T20:08:29.000Z</published>
-    <updated>2020-05-18T20:13:28.956Z</updated>
+    <updated>2020-05-18T20:08:29.000Z</updated>
     
     <summary type="html">
     
@@ -550,7 +550,7 @@
     <link href="https://broadgeek.com/2020/05/17/bbe/"/>
     <id>https://broadgeek.com/2020/05/17/bbe/</id>
     <published>2020-05-17T21:44:20.000Z</published>
-    <updated>2020-05-18T18:12:34.973Z</updated>
+    <updated>2020-05-17T21:44:20.000Z</updated>
     
     <summary type="html">
     
