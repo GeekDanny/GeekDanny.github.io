@@ -61,7 +61,7 @@
     </summary>
     
     
-      <category term="GPU" scheme="https://broadgeek.com/categories/GPU/"/>
+      <category term="图形技术" scheme="https://broadgeek.com/categories/%E5%9B%BE%E5%BD%A2%E6%8A%80%E6%9C%AF/"/>
     
     
       <category term="OpenGL" scheme="https://broadgeek.com/tags/OpenGL/"/>
@@ -88,7 +88,7 @@
     </summary>
     
     
-      <category term="GPU" scheme="https://broadgeek.com/categories/GPU/"/>
+      <category term="图形技术" scheme="https://broadgeek.com/categories/%E5%9B%BE%E5%BD%A2%E6%8A%80%E6%9C%AF/"/>
     
     
       <category term="Vulkan" scheme="https://broadgeek.com/tags/Vulkan/"/>
@@ -115,7 +115,7 @@
     </summary>
     
     
-      <category term="GPU" scheme="https://broadgeek.com/categories/GPU/"/>
+      <category term="图形技术" scheme="https://broadgeek.com/categories/%E5%9B%BE%E5%BD%A2%E6%8A%80%E6%9C%AF/"/>
     
     
       <category term="Vulkan" scheme="https://broadgeek.com/tags/Vulkan/"/>
@@ -143,7 +143,7 @@
     </summary>
     
     
-      <category term="GPU" scheme="https://broadgeek.com/categories/GPU/"/>
+      <category term="图形技术" scheme="https://broadgeek.com/categories/%E5%9B%BE%E5%BD%A2%E6%8A%80%E6%9C%AF/"/>
     
     
       <category term="Vulkan" scheme="https://broadgeek.com/tags/Vulkan/"/>
@@ -170,7 +170,7 @@
     </summary>
     
     
-      <category term="GPU" scheme="https://broadgeek.com/categories/GPU/"/>
+      <category term="图形技术" scheme="https://broadgeek.com/categories/%E5%9B%BE%E5%BD%A2%E6%8A%80%E6%9C%AF/"/>
     
     
       <category term="Vulkan" scheme="https://broadgeek.com/tags/Vulkan/"/>
@@ -254,7 +254,7 @@
       <category term="编程技术" scheme="https://broadgeek.com/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="C/C++" scheme="https://broadgeek.com/tags/C-C/"/>
+      <category term="C++" scheme="https://broadgeek.com/tags/C/"/>
     
       <category term="struct" scheme="https://broadgeek.com/tags/struct/"/>
     
@@ -282,6 +282,8 @@
     
       <category term="编程技术" scheme="https://broadgeek.com/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/"/>
     
+    
+      <category term="C" scheme="https://broadgeek.com/tags/C/"/>
     
   </entry>
   
@@ -371,7 +373,7 @@
     </summary>
     
     
-      <category term="GPU" scheme="https://broadgeek.com/categories/GPU/"/>
+      <category term="图形技术" scheme="https://broadgeek.com/categories/%E5%9B%BE%E5%BD%A2%E6%8A%80%E6%9C%AF/"/>
     
     
       <category term="Mali" scheme="https://broadgeek.com/tags/Mali/"/>
