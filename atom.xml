@@ -37,6 +37,8 @@
     
     
     
+      <category term="C++" scheme="https://broadgeek.com/tags/C/"/>
+    
   </entry>
   
   <entry>
@@ -195,6 +197,10 @@
     </summary>
     
     
+      <category term="编程技术" scheme="https://broadgeek.com/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="C++" scheme="https://broadgeek.com/tags/C/"/>
     
   </entry>
   
@@ -218,7 +224,7 @@
     </summary>
     
     
-      <category term="Programming Languages" scheme="https://broadgeek.com/categories/Programming-Languages/"/>
+      <category term="编程技术" scheme="https://broadgeek.com/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/"/>
     
     
       <category term="C++" scheme="https://broadgeek.com/tags/C/"/>
@@ -245,35 +251,12 @@
     </summary>
     
     
-      <category term="Programming Languages" scheme="https://broadgeek.com/categories/Programming-Languages/"/>
+      <category term="编程技术" scheme="https://broadgeek.com/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/"/>
     
     
       <category term="C/C++" scheme="https://broadgeek.com/tags/C-C/"/>
     
       <category term="struct" scheme="https://broadgeek.com/tags/struct/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Code Committer on Design Patterns:Open-Closed Principle</title>
-    <link href="https://broadgeek.com/2020/06/27/6736/"/>
-    <id>https://broadgeek.com/2020/06/27/6736/</id>
-    <published>2020-06-27T16:21:52.000Z</published>
-    <updated>2020-06-27T16:21:52.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Open-Closed-Principle-（开闭原则）&quot;&gt;&lt;a href=&quot;#Open-Closed-Principle-（开闭原则）&quot; class=&quot;headerlink&quot; title=&quot;Open-Closed Principle
-        
-      
-    
-    </summary>
-    
-    
     
   </entry>
   
@@ -297,11 +280,13 @@
     </summary>
     
     
+      <category term="编程技术" scheme="https://broadgeek.com/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/"/>
+    
     
   </entry>
   
   <entry>
-    <title>Code Committer on Design Patterns-Single Responsibility Principle</title>
+    <title>Design Patterns-Single Responsibility Principle</title>
     <link href="https://broadgeek.com/2020/06/21/ab5f/"/>
     <id>https://broadgeek.com/2020/06/21/ab5f/</id>
     <published>2020-06-21T19:52:27.000Z</published>
@@ -321,7 +306,7 @@
     </summary>
     
     
-      <category term="Architecture" scheme="https://broadgeek.com/categories/Architecture/"/>
+      <category term="架构设计" scheme="https://broadgeek.com/categories/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
     
     
       <category term="C++" scheme="https://broadgeek.com/tags/C/"/>
@@ -351,7 +336,7 @@
     </summary>
     
     
-      <category term="Architecture" scheme="https://broadgeek.com/categories/Architecture/"/>
+      <category term="架构设计" scheme="https://broadgeek.com/categories/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
     
     
       <category term="C" scheme="https://broadgeek.com/tags/C/"/>
@@ -363,33 +348,6 @@
       <category term="Kernel" scheme="https://broadgeek.com/tags/Kernel/"/>
     
       <category term="Design Patterns" scheme="https://broadgeek.com/tags/Design-Patterns/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Arm全新GPU深度解读：一次重大的飞跃</title>
-    <link href="https://broadgeek.com/2020/06/10/dc8/"/>
-    <id>https://broadgeek.com/2020/06/10/dc8/</id>
-    <published>2020-06-10T20:53:57.000Z</published>
-    <updated>2020-06-10T20:53:57.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;回顾Arm 推出了 新的 Cortex-A77 CPU微架构， 但更重要的 推出 了新的 Valhall GPU 架构和新的 Mali-G77 GPU 。 Bifrost 架构 推出 已有三年，随着行业和工作负载的不断发展， Arm 的 GPU
-        
-      
-    
-    </summary>
-    
-    
-      <category term="GPU" scheme="https://broadgeek.com/categories/GPU/"/>
-    
-    
-      <category term="Mali" scheme="https://broadgeek.com/tags/Mali/"/>
     
   </entry>
   
@@ -469,7 +427,7 @@
     </summary>
     
     
-      <category term="设计架构" scheme="https://broadgeek.com/categories/%E8%AE%BE%E8%AE%A1%E6%9E%B6%E6%9E%84/"/>
+      <category term="架构设计" scheme="https://broadgeek.com/categories/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
     
     
       <category term="Architecture" scheme="https://broadgeek.com/tags/Architecture/"/>
@@ -561,12 +519,74 @@
     </summary>
     
     
-      <category term="Compilation" scheme="https://broadgeek.com/categories/Compilation/"/>
+      <category term="编程技术" scheme="https://broadgeek.com/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/"/>
     
     
       <category term="Android" scheme="https://broadgeek.com/tags/Android/"/>
     
       <category term="Compilation" scheme="https://broadgeek.com/tags/Compilation/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>详解华为正在开发的操作系统</title>
+    <link href="https://broadgeek.com/2020/05/17/bbe/"/>
+    <id>https://broadgeek.com/2020/05/17/bbe/</id>
+    <published>2020-05-17T21:44:20.000Z</published>
+    <updated>2020-05-17T21:44:20.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;转文学城&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;读者按： 最近开始研究华为的系统，读了很多文章和代码，计划庖丁解牛的研究华为面临的问题。只有清晰的了解问题后，才可以对症下药。这篇文章有点意思，记录一下以做参考。&lt;/p&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+      <category term="操作系统" scheme="https://broadgeek.com/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+      <category term="华为" scheme="https://broadgeek.com/tags/%E5%8D%8E%E4%B8%BA/"/>
+    
+      <category term="鸿蒙" scheme="https://broadgeek.com/tags/%E9%B8%BF%E8%92%99/"/>
+    
+      <category term="方舟" scheme="https://broadgeek.com/tags/%E6%96%B9%E8%88%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android Architecture</title>
+    <link href="https://broadgeek.com/2020/05/17/b272/"/>
+    <id>https://broadgeek.com/2020/05/17/b272/</id>
+    <published>2020-05-17T18:59:10.000Z</published>
+    <updated>2020-05-17T18:59:10.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Android is designed so that there’s no central point of failure, where one industry player restricts or controls the innovations of
+        
+      
+    
+    </summary>
+    
+    
+      <category term="操作系统" scheme="https://broadgeek.com/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+      <category term="Android" scheme="https://broadgeek.com/tags/Android/"/>
     
   </entry>
   
